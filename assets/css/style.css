@@ -198,6 +198,14 @@ img {
     margin: 0 auto; /* Center the image containers */
   }
 
+  /* Ensure images scale properly and fit within their containers on mobile */
+  .image-container img {
+    max-width: 100%; /* Ensure the image doesn't extend beyond its container */
+    max-height: 400px; /* Limit the image height to 400px (or adjust as needed) */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+  }
+
   /* Adjust font size for the page title */
   header h1 {
     font-size: 1.8rem; /* Smaller font size for the page title on smaller screens */
