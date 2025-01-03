@@ -211,3 +211,13 @@ img {
     font-size: 1.8rem; /* Smaller font size for the page title on smaller screens */
   }
 }
+/* Position the date and time in the top-right corner */
+#date-time {
+  position: absolute; /* Absolute positioning relative to the body */
+  top: 10px; /* 10px from the top */
+  right: 20px; /* 20px from the right */
+  font-size: 1rem; /* Adjust the font size */
+  color: #333; /* Change to the desired text color */
+  font-family: 'Lato', sans-serif; /* Use Lato font */
+  font-weight: 400; /* Regular font weight */
+}
