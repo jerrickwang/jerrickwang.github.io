@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #444; /* Darker background on hover */
+  background: #000; /* Darker background on hover */
 }
 
 /* Page title styling */
