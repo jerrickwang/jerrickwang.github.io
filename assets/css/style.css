@@ -31,3 +31,12 @@ nav ul li a {
 nav ul li a:hover {
   background: #444;
 }
+/* Center the site title inside the header */
+header h1 {
+  text-align: center;
+}
+
+/* Center footer content */
+footer {
+  text-align: center;
+}
