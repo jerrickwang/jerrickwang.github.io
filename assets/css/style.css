@@ -1,6 +1,6 @@
 /* Full-width navigation bar */
 nav {
-  background: #333; /* Navigation bar background color */
+  background: #31473A; /* Navigation bar background color */
   color: #fff; /* Navigation text color */
   width: 100%; /* Full screen width */
   padding: 10px 0;
@@ -62,7 +62,7 @@ main {
 footer {
   text-align: center; /* Centers footer content */
   padding: 10px 0;
-  background: #f0f0f0; /* Optional footer background */
+  background: #31473A; /* Optional footer background */
   color: #333; /* Footer text color */
 }
 
@@ -72,6 +72,6 @@ body {
   padding: 0; /* Removes default body padding */
   font-family: 'Futura', sans-serif; /* Futura font with fallback */
   line-height: 1.6; /* Improves readability */
-  background-color: #fdf5e6; /* Light cream background color */
+  background-color: #EDF4F2
   box-sizing: border-box; /* Applies box-sizing globally */
 }
