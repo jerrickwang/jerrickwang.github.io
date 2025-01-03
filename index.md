@@ -1,2 +1,1 @@
-# jerrickwang.github.io
-# this is a test message!
+#Welcome to my website! This is my photography portfolio.
