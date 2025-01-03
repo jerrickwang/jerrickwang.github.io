@@ -31,10 +31,6 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/2-02.jpg" alt="Pacifica Coastline" onclick="openModal(this)">
-</div>
-
-<div class="image-container">
   <img src="/assets/images/2-03.jpg" alt="Big Game 2024" onclick="openModal(this)">
 </div>
 
@@ -44,6 +40,10 @@ permalink: /portfolio/
 
 <div class="image-container">
   <img src="/assets/images/2-05.jpg" alt="Game Day" onclick="openModal(this)">
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/2-02.jpg" alt="Pacifica Coastline" onclick="openModal(this)">
 </div>
 
 <div class="image-container">
