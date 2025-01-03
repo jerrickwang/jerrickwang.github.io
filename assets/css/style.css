@@ -1,6 +1,17 @@
+/* Global font styling with Lato */
+body {
+  font-family: 'Lato', Arial, sans-serif; /* Use Lato with fallback fonts */
+  line-height: 1.6; /* Improves readability */
+  margin: 0;
+  padding: 0;
+  background-color: #fdf5e6; /* Light cream background */
+  color: #333; /* Default text color */
+  box-sizing: border-box; /* Applies box-sizing globally */
+}
+
 /* Full-width navigation bar */
 nav {
-  background: #31473A; /* Navigation bar background color */
+  background: #333; /* Navigation bar background color */
   color: #fff; /* Navigation text color */
   width: 100%; /* Full screen width */
   padding: 10px 0;
@@ -31,6 +42,8 @@ nav ul li {
 }
 
 nav ul li a {
+  font-family: 'Lato', sans-serif; /* Apply Lato to navigation links */
+  font-weight: 400; /* Regular weight for navigation links */
   text-decoration: none; /* Removes underline from links */
   color: #fff; /* Link text color */
   padding: 10px 15px;
@@ -44,6 +57,8 @@ nav ul li a:hover {
 
 /* Page title styling */
 header h1 {
+  font-family: 'Lato', sans-serif; /* Apply Lato to the page title */
+  font-weight: 700; /* Bold weight for headers */
   text-align: center; /* Centers the page title */
   margin: 20px 0; /* Adds spacing above and below the title */
   font-size: 2rem; /* Adjusts title size */
@@ -60,18 +75,35 @@ main {
 
 /* Footer styling */
 footer {
+  font-family: 'Lato', sans-serif; /* Apply Lato to footer text */
+  font-weight: 400; /* Regular weight for footer text */
   text-align: center; /* Centers footer content */
   padding: 10px 0;
-  background: #82b597; /* Optional footer background */
+  background: #f0f0f0; /* Optional footer background */
   color: #333; /* Footer text color */
 }
 
-/* Body global styling with cream background and Futura font */
-body {
-  margin: 0; /* Removes default body margins */
-  padding: 0; /* Removes default body padding */
-  font-family: 'Trebuchet MS';
-  line-height: 1.6; /* Improves readability */
-  background-color: #EDF4F2
-  box-sizing: border-box; /* Applies box-sizing globally */
+/* Images */
+img {
+  max-width: 100%; /* Ensures images don't overflow their container */
+  height: auto; /* Maintains aspect ratio */
+  display: block;
+  margin: 0 auto; /* Centers images */
+}
+
+/* Buttons (optional styling) */
+button {
+  font-family: 'Lato', sans-serif; /* Apply Lato to buttons */
+  font-weight: 400; /* Regular weight for buttons */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #444;
 }
