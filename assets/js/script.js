@@ -25,35 +25,7 @@ function closeModal(event) {
   }
 }
 
-// Function to update the date and time
-function updateDateTime() {
-  const now = new Date();
-  const options = {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit',
-    second: '2-digit',
-    hour12: true,
-  };
-  const dateTimeString = now.toLocaleDateString('en-US', options);
 
-  // Set the current date and time to the #date-time element
-  const dateTimeElement = document.getElementById('date-time');
-  if (dateTimeElement) {
-    dateTimeElement.textContent = dateTimeString;
-  } else {
-    console.error('#date-time element not found!');
-  }
-}
-
-// Update date and time every second
-setInterval(updateDateTime, 1000);
-
-// Call once to set the initial value
-updateDateTime();
 
 // Event listener to close the modal when clicking outside the image
 var modal = document.getElementById("imageModal");
