@@ -108,3 +108,26 @@ button:hover {
   background: #444;
 }
 
+/* Style the image containers */
+.image-container {
+  text-align: center; /* Centers the content */
+  margin-bottom: 20px; /* Adds space between each image */
+}
+
+/* Style the image description (alt text) */
+.image-description {
+  font-size: 1.2rem; /* Adjusts the font size of the alt text */
+  margin-bottom: 10px; /* Adds space between the description and image */
+  font-weight: bold; /* Makes the alt text bold */
+  color: #333; /* Dark color for the description */
+}
+
+/* Limit the images to a max width or height of 600px */
+img {
+  max-width: 600px; /* Max width */
+  max-height: 600px; /* Max height */
+  width: auto; /* Ensures images maintain aspect ratio */
+  height: auto; /* Ensures images maintain aspect ratio */
+  display: block; /* Makes images block-level elements (removes any unwanted spacing) */
+  margin: 0 auto; /* Centers images */
+}
