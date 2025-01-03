@@ -1,19 +1,29 @@
+/* Full-width navigation bar */
 nav {
-  text-align: center;
-  background: #333;
-  width: 100%;
+  background: #333; /* Background color for the nav bar */
+  color: #fff; /* Text color */
+  width: 100%; /* Full screen width */
   padding: 10px 0;
-  position: sticky;
+  position: sticky; /* Sticks to the top when scrolling */
   top: 0;
   z-index: 1000;
 }
 
-nav ul {
+/* Inner container for the navigation links */
+.nav-container {
+  max-width: 1200px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content */
+  padding: 0 20px; /* Add padding for spacing */
   display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
+  justify-content: center; /* Center-align the links */
+}
+
+/* Navigation links */
+nav ul {
+  list-style: none; /* Remove bullets */
   margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav ul li {
@@ -29,9 +39,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #444;
+  background: #444; /* Darker gray hover effect */
 }
 
+/* Center the page title below the nav bar */
 header h1 {
   text-align: center;
   margin: 20px 0; /* Add spacing around the title */
@@ -39,19 +50,21 @@ header h1 {
   color: #333; /* Customize title color */
 }
 
+/* Center the footer content */
 footer {
   text-align: center;
 }
 
 /* Apply padding to the entire page content */
 body {
-  padding: 0 100px; 
+  padding: 0; /* Remove overall padding from the body */
   margin: 0;
   box-sizing: border-box; /* Ensures padding doesn’t affect width calculation */
 }
 
-/* Optional: Limit the width of the page content and center it */
+/* Limit and center page content */
 body > * {
   max-width: 1200px; /* Limits the width for better readability */
   margin: 0 auto; /* Centers the content */
+  padding: 0 20%; /* Adds 20% of the screen width as side padding */
 }
