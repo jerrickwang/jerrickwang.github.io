@@ -109,6 +109,7 @@ button:hover {
 }
 
 /* Style the image containers */
+/* Style the image containers */
 .image-container {
   position: relative; /* Allows us to position the background and image */
   display: inline-block;
@@ -119,7 +120,7 @@ button:hover {
   border-radius: 8px; /* Optional: Rounds the corners of the container */
 }
 
-
+/* Image styling */
 img {
   max-width: 500px; /* Max width */
   max-height: 500px; /* Max height */
@@ -128,4 +129,40 @@ img {
   display: block; /* Makes images block-level elements (removes any unwanted spacing) */
   margin: 0 auto; /* Centers images */
   border-radius: 8px; /* Optional: Rounds the corners of the images */
+  cursor: pointer; /* Shows a pointer cursor to indicate the image is clickable */
 }
+
+/* Modal (Fullscreen View) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed position to cover the screen */
+  z-index: 1000; /* Make sure modal is above other content */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full screen */
+  height: 100%; /* Full screen */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  overflow: auto; /* Allows scrolling */
+  cursor: pointer; /* Allows clicking anywhere to close */
+}
+
+/* Modal image styling */
+.modal-content {
+  display: block;
+  max-width: 90%; /* Limit max width of the image */
+  max-height: 90%; /* Limit max height of the image */
+  margin: 5% auto; /* Centers the image in the modal */
+  box-sizing: border-box;
+}
+
+/* Close button styling */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
