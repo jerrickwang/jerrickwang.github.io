@@ -22,12 +22,21 @@
     </nav>
     <h1>{{ page.title }}</h1>
   </header>
-  <main style="max-width: 95%; margin: 0 auto;"> <!-- Override width here -->
+  
+  <main style="max-width: 95%; margin: 0 auto;">
     {{ content }}
   </main>
+
+  <!-- Modal for full-screen image -->
+  <div id="imageModal" style="display: none;">
+    <span id="close" style="font-size: 30px; cursor: pointer;">&times;</span>
+    <img id="modalImage" src="" alt="Modal Image" />
+  </div>
+
   <footer>
     <p>© 2025 Jerrick Wang</p>
   </footer>
+  
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>
