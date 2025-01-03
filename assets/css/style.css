@@ -55,12 +55,6 @@ nav ul li a:hover {
   background: #000; /* Darker background on hover */
 }
 
-/* Style the active link in the navigation */
-nav ul li a.active {
-  font-weight: bold; /* Makes the current page link bold */
-  font-size: 1.2rem; /* Increases the font size of the current page link */
-  text-decoration: underline; /* Optional: Underline the active link */
-}
 
 
 /* Page title styling */
