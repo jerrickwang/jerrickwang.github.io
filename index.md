@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Home
-permalink: /home/
+permalink: /
 ---
 Hello! I'm Jerrick. This is my photography portfolio site.
