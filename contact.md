@@ -4,7 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 
-<p>Feel free to send me a message for inquiries.</p>
+<p>Instagram: @majorwangpics</p>
+
+<p>Feel free to send me a message for inquiries. This form below will redirect to formspree after submitting.</p>
 
 <!-- Formspree contact form -->
 <form id="contactForm" method="POST" action="https://formspree.io/f/myzzbwwl">
@@ -19,4 +21,4 @@ permalink: /contact/
 <br>
   <button type="submit">Submit</button>
 </form>
-<p>Instagram: @majorwangpics</p>
+
