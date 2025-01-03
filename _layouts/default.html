@@ -13,9 +13,9 @@
       <div class="nav-container">
         <ul>
           <li><a href="{{ '/' | relative_url }}" class="{{ 'active' if page.url == '/' }}">Home</a></li>
-          <li><a href="{{ '/portfolio/' | relative_url }}" class="{{ 'active' if page.url == '/portfolio/' }}">Portfolio</a></li>
-          <li><a href="{{ '/about/' | relative_url }}" class="{{ 'active' if page.url == '/about/' }}">About</a></li>
-          <li><a href="{{ '/contact/' | relative_url }}" class="{{ 'active' if page.url == '/contact/' }}">Contact</a></li>
+          <li><a href="{{ '/portfolio/' | relative_url }}" class="{{ 'active' if page.url == '/portfolio/' or page.url == '/portfolio' }}">Portfolio</a></li>
+          <li><a href="{{ '/about/' | relative_url }}" class="{{ 'active' if page.url == '/about/' or page.url == '/about' }}">About</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}" class="{{ 'active' if page.url == '/contact/' or page.url == '/contact' }}">Contact</a></li>
         </ul>
       </div>
     </nav>
