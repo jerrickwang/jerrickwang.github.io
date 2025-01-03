@@ -66,11 +66,12 @@ footer {
   color: #333; /* Footer text color */
 }
 
-/* Body global styling */
+/* Body global styling with cream background */
 body {
   margin: 0; /* Removes default body margins */
   padding: 0; /* Removes default body padding */
   font-family: Arial, sans-serif; /* Default font family */
   line-height: 1.6; /* Improves readability */
+  background-color: #fdf5e6; /* Light cream background color */
   box-sizing: border-box; /* Applies box-sizing globally */
 }
