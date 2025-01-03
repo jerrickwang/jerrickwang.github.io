@@ -32,7 +32,6 @@ nav ul li a:hover {
   background: #444;
 }
 
-
 header h1 {
   text-align: center;
   margin: 20px 0; /* Add spacing around the title */
@@ -42,4 +41,17 @@ header h1 {
 
 footer {
   text-align: center;
+}
+
+/* Apply padding to the entire page content */
+body {
+  padding: 0 100px; 
+  margin: 0;
+  box-sizing: border-box; /* Ensures padding doesn’t affect width calculation */
+}
+
+/* Optional: Limit the width of the page content and center it */
+body > * {
+  max-width: 1200px; /* Limits the width for better readability */
+  margin: 0 auto; /* Centers the content */
 }
