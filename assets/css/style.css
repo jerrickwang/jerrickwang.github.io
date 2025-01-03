@@ -142,16 +142,17 @@ img {
   width: 100%; /* Full screen */
   height: 100%; /* Full screen */
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-  overflow: auto; /* Allows scrolling */
+  overflow: hidden; /* Prevents any scrolling within the modal */
   cursor: pointer; /* Allows clicking anywhere to close */
 }
 
 /* Modal image styling */
 .modal-content {
   display: block;
-  max-width: 90%; /* Limit max width of the image */
-  max-height: 90%; /* Limit max height of the image */
-  margin: 5% auto; /* Centers the image in the modal */
+  max-width: 100%; /* Ensures the image doesn't exceed the modal width */
+  max-height: 100%; /* Ensures the image doesn't exceed the modal height */
+  margin: auto; /* Centers the image horizontally and vertically */
+  object-fit: contain; /* Ensures the image maintains its aspect ratio */
   box-sizing: border-box;
 }
 
