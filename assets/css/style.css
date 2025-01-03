@@ -1,70 +1,76 @@
 /* Full-width navigation bar */
 nav {
-  background: #333; /* Background color for the nav bar */
-  color: #fff; /* Text color */
+  background: #333; /* Navigation bar background color */
+  color: #fff; /* Navigation text color */
   width: 100%; /* Full screen width */
   padding: 10px 0;
-  position: sticky; /* Sticks to the top when scrolling */
+  position: sticky; /* Sticks to the top on scroll */
   top: 0;
-  z-index: 1000;
+  z-index: 1000; /* Ensures the nav bar stays above other elements */
 }
 
-/* Inner container for the navigation links */
+/* Inner container to center navigation links */
 .nav-container {
-  max-width: 1200px; /* Limit the width of the navigation links */
-  margin: 0 auto; /* Center the navigation links */
-  padding: 0 20px; /* Add padding inside the container */
+  max-width: 1200px; /* Limits the width of navigation content */
+  margin: 0 auto; /* Centers the navigation links */
+  padding: 0 20px; /* Adds padding for spacing */
   display: flex;
-  justify-content: center; /* Center-align the links */
+  justify-content: center; /* Centers the links horizontally */
 }
 
-/* Navigation links */
+/* Navigation links styling */
 nav ul {
-  list-style: none; /* Remove bullets */
+  list-style: none; /* Removes default bullets */
   margin: 0;
   padding: 0;
   display: flex;
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 15px; /* Space between navigation items */
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  color: #fff; /* Link text color */
   padding: 10px 15px;
   display: block;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease; /* Smooth hover effect */
 }
 
 nav ul li a:hover {
-  background: #444; /* Darker gray hover effect */
+  background: #444; /* Darker background on hover */
 }
 
-/* Center the page title below the nav bar */
+/* Page title styling */
 header h1 {
-  text-align: center;
-  margin: 20px 0; /* Add spacing around the title */
-  font-size: 2rem; /* Adjust size if needed */
-  color: #333; /* Customize title color */
+  text-align: center; /* Centers the page title */
+  margin: 20px 0; /* Adds spacing above and below the title */
+  font-size: 2rem; /* Adjusts title size */
+  color: #333; /* Title text color */
 }
 
-/* Center the footer content */
-footer {
-  text-align: center;
-}
-
-/* Apply padding to the entire page content */
-body {
-  padding: 0; /* Remove overall padding from the body */
-  margin: 0;
-  box-sizing: border-box; /* Ensures padding doesn’t affect width calculation */
-}
-
-/* Limit and center page content */
-body > * {
-  max-width: 1200px; /* Limits the width for better readability */
+/* Main content styling */
+main {
+  max-width: 1200px; /* Limits the width of the main content */
   margin: 0 auto; /* Centers the content */
-  padding: 0 100px; /* Adds side padding for better spacing */
+  padding: 20px 100px; /* Adds padding around the content */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Footer styling */
+footer {
+  text-align: center; /* Centers footer content */
+  padding: 10px 0;
+  background: #f0f0f0; /* Optional footer background */
+  color: #333; /* Footer text color */
+}
+
+/* Body global styling */
+body {
+  margin: 0; /* Removes default body margins */
+  padding: 0; /* Removes default body padding */
+  font-family: Arial, sans-serif; /* Default font family */
+  line-height: 1.6; /* Improves readability */
+  box-sizing: border-box; /* Applies box-sizing globally */
 }
