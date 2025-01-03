@@ -9,11 +9,13 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-      </ul>
+      <div class="nav-container">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
     </nav>
     <h1>{{ page.title }}</h1>
   </header>
