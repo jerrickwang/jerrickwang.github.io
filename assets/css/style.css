@@ -62,7 +62,7 @@ main {
 footer {
   text-align: center; /* Centers footer content */
   padding: 10px 0;
-  background: #31473A; /* Optional footer background */
+  background: #82b597; /* Optional footer background */
   color: #333; /* Footer text color */
 }
 
@@ -70,7 +70,7 @@ footer {
 body {
   margin: 0; /* Removes default body margins */
   padding: 0; /* Removes default body padding */
-  font-family: 'Futura', sans-serif; /* Futura font with fallback */
+  font-family: Helvetica;
   line-height: 1.6; /* Improves readability */
   background-color: #EDF4F2
   box-sizing: border-box; /* Applies box-sizing globally */
