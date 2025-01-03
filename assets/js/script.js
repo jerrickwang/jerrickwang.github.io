@@ -15,19 +15,18 @@ function openModal(imageElement) {
   }
 }
 
-// Function to close the modal when clicking anywhere in the modal
+// Function to close the modal when clicking anywhere (including the fullscreen image)
 function closeModal(event) {
   var modal = document.getElementById("imageModal");
+  var modalImage = document.getElementById("modalImage");
 
-  // Ensure the click happened outside the modal image
-  if (event.target === modal) {
-    modal.style.display = "none"; // Hide the modal when clicked anywhere outside the image
+  // Close the modal when the user clicks anywhere on the screen, including the fullscreen image
+  if (event.target === modal || event.target === modalImage || event.target === document.getElementById("close")) {
+    modal.style.display = "none"; // Hide the modal when clicked anywhere outside the image or on the close button
   }
 }
 
-
-
-// Event listener to close the modal when clicking outside the image
+// Event listener to close the modal when clicking anywhere on the screen
 var modal = document.getElementById("imageModal");
 if (modal) {
   modal.addEventListener("click", closeModal);
