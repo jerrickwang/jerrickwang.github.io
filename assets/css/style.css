@@ -35,6 +35,8 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap; /* Allows the links to wrap on smaller screens */
+  justify-content: center; /* Centers the links */
 }
 
 nav ul li {
@@ -54,8 +56,6 @@ nav ul li a {
 nav ul li a:hover {
   background: #000; /* Darker background on hover */
 }
-
-
 
 /* Page title styling */
 header h1 {
@@ -171,4 +171,35 @@ img {
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Stack the navigation items vertically on smaller screens */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust the navigation links padding and font size for mobile */
+  nav ul li a {
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+
+  /* Adjust the main content padding on smaller screens */
+  main {
+    padding: 20px 30px;
+  }
+
+  /* Adjust image container width for mobile */
+  .image-container {
+    max-width: 90%; /* Ensure image containers take up less width on small screens */
+    margin: 0 auto; /* Center the image containers */
+  }
+
+  /* Adjust font size for the page title */
+  header h1 {
+    font-size: 1.8rem; /* Smaller font size for the page title on smaller screens */
+  }
 }
