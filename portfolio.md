@@ -18,3 +18,8 @@ permalink: /portfolio/
 <div class="image-container">
   <img src="/assets/images/IMG_1060.jpg" alt="Mallard duck stretching">
 </div>
+
+<div id="imageModal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
