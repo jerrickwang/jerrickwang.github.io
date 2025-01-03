@@ -70,7 +70,7 @@ footer {
 body {
   margin: 0; /* Removes default body margins */
   padding: 0; /* Removes default body padding */
-  font-family: 'Helvetica Neue';
+  font-family: 'Trebuchet MS';
   line-height: 1.6; /* Improves readability */
   background-color: #EDF4F2
   box-sizing: border-box; /* Applies box-sizing globally */
