@@ -131,10 +131,9 @@ button:hover {
   transform: translateX(-50%); /* Centers the text horizontally */
 }
 
-/* Limit the images to a max width or height of 600px */
 img {
-  max-width: 600px; /* Max width */
-  max-height: 600px; /* Max height */
+  max-width: 50%; /* Max width */
+  max-height: 50%; /* Max height */
   width: auto; /* Ensures images maintain aspect ratio */
   height: auto; /* Ensures images maintain aspect ratio */
   display: block; /* Makes images block-level elements (removes any unwanted spacing) */
