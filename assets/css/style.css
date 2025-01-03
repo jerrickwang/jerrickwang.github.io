@@ -107,3 +107,18 @@ button {
 button:hover {
   background: #444;
 }
+
+/* Mosaic Grid Layout */
+.mosaic-gallery {
+  display: grid; /* Enables grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically adjusts columns */
+  gap: 16px; /* Space between images */
+  padding: 20px;
+}
+
+.mosaic-gallery img {
+  width: 100%; /* Makes images responsive */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional: Rounds the corners of the images */
+  object-fit: cover; /* Ensures the image fills the space without distorting */
+}
