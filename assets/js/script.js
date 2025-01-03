@@ -1,5 +1,7 @@
 // Function to open the modal
 function openModal(imageElement) {
+  console.log('Modal is opening'); // Log to console for debugging
+
   var modal = document.getElementById("imageModal");
   var modalImage = document.getElementById("modalImage");
   
@@ -8,7 +10,7 @@ function openModal(imageElement) {
   modalImage.src = imageElement.src; // Set the clicked image as the modal image
 }
 
-// Function to close the modal
+// Function to close the modal when clicking anywhere in the modal
 function closeModal() {
   var modal = document.getElementById("imageModal");
   modal.style.display = "none"; // Hide the modal when clicked anywhere
