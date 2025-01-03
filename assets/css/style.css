@@ -31,12 +31,15 @@ nav ul li a {
 nav ul li a:hover {
   background: #444;
 }
-/* Center the site title inside the header */
+
+
 header h1 {
   text-align: center;
+  margin: 20px 0; /* Add spacing around the title */
+  font-size: 2rem; /* Adjust size if needed */
+  color: #333; /* Customize title color */
 }
 
-/* Center footer content */
 footer {
   text-align: center;
 }
