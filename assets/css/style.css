@@ -4,14 +4,14 @@ body {
   line-height: 1.6; /* Improves readability */
   margin: 0;
   padding: 0;
-  background-color: #fdf5e6; /* Light cream background */
+  background-color: #EDF4F2;
   color: #333; /* Default text color */
   box-sizing: border-box; /* Applies box-sizing globally */
 }
 
 /* Full-width navigation bar */
 nav {
-  background: #333; /* Navigation bar background color */
+  background: #31473A; /* Navigation bar background color */
   color: #fff; /* Navigation text color */
   width: 100%; /* Full screen width */
   padding: 10px 0;
@@ -79,7 +79,7 @@ footer {
   font-weight: 400; /* Regular weight for footer text */
   text-align: center; /* Centers footer content */
   padding: 10px 0;
-  background: #f0f0f0; /* Optional footer background */
+  background: #6b997e; /* Optional footer background */
   color: #333; /* Footer text color */
 }
 
