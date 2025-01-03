@@ -113,13 +113,18 @@ button:hover {
 /* Style the image containers */
 .image-container {
   position: relative; /* Allows us to position the background and image */
-  display: inline-block;
+  display: block; /* Makes the container a block-level element */
   text-align: center; /* Centers the content */
+  margin: 0 auto; /* Centers the container itself */
   margin-bottom: 20px; /* Adds space between each image */
   background: rgba(0, 0, 0, 0.3); /* Initial background with some opacity */
   padding: 10px;
   border-radius: 8px; /* Optional: Rounds the corners of the container */
   transition: background 0.3s ease; /* Smooth transition for the background */
+  width: 100%; /* Ensures the container spans the full width of its parent */
+  display: flex; /* Use flex to align the images within */
+  justify-content: center; /* Centers the image inside the container */
+  align-items: center; /* Vertically centers the image inside the container */
 }
 
 /* Image styling */
@@ -129,7 +134,7 @@ img {
   width: auto; /* Ensures images maintain aspect ratio */
   height: auto; /* Ensures images maintain aspect ratio */
   display: block; /* Makes images block-level elements (removes any unwanted spacing) */
-  margin: 0 auto; /* Centers images */
+  margin: 0 auto; /* Centers images horizontally */
   cursor: pointer; /* Shows a pointer cursor to indicate the image is clickable */
 }
 
@@ -171,6 +176,18 @@ img {
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* Positioning the date and time in the top-right corner */
+#date-time {
+  position: absolute; /* Absolute positioning relative to the body */
+  top: 10px; /* 10px from the top */
+  right: 20px; /* 20px from the right */
+  font-size: 1rem; /* Adjust the font size */
+  color: #333; /* Change to the desired text color */
+  font-family: 'Lato', sans-serif; /* Use Lato font */
+  font-weight: 400; /* Regular font weight */
+  z-index: 9999; /* Ensure it's above other elements */
 }
 
 /* Responsive Design */
