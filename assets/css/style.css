@@ -110,16 +110,13 @@ button:hover {
 
 /* Style the image containers */
 .image-container {
-  display: block;
+  position: relative; /* Allows us to position the background and image */
+  display: inline-block;
   text-align: center; /* Centers the content */
   margin-bottom: 20px; /* Adds space between each image */
   background: rgba(0, 0, 0, 0.3); /* Darken the background with 30% opacity */
   padding: 10px;
   border-radius: 8px; /* Optional: Rounds the corners of the container */
-  width: 100%;
-  max-width: 30vw; /* Max width is 30% of the viewport width */
-  max-height: 30vh; /* Max height is 30% of the viewport height */
-  margin: 0 auto; /* Centers the container horizontally */
 }
 
 /* Style the image description (alt text) */
@@ -127,13 +124,19 @@ button:hover {
   font-size: 1.2rem; /* Adjusts the font size of the alt text */
   margin-bottom: 10px; /* Adds space between the description and image */
   font-weight: bold; /* Makes the alt text bold */
-  color: #fff; /* White color for the description */
+  color: #fff; /* White color for the description for better contrast */
+  position: absolute;
+  top: 10px; /* Position the text at the top of the container */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the text horizontally */
 }
 
-/* Limit the images to a max width or height of 30% of screen size */
+/* Limit the images to a max width or height of 600px */
 img {
-  width: 100%; /* Makes the image take up the full width of the container */
-  height: auto; /* Maintains aspect ratio */
+  max-width: 600px; /* Max width */
+  max-height: 600px; /* Max height */
+  width: auto; /* Ensures images maintain aspect ratio */
+  height: auto; /* Ensures images maintain aspect ratio */
   display: block; /* Makes images block-level elements (removes any unwanted spacing) */
   margin: 0 auto; /* Centers images */
   border-radius: 8px; /* Optional: Rounds the corners of the images */
