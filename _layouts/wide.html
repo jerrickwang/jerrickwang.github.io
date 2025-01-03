@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/jw.png' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}" >Home</a></li>
+          <li><a href="{{ '/portfolio/' | relative_url }}" >Portfolio</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}" >Blog</a></li>
+          <li><a href="{{ '/about/' | relative_url }}" >About</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}" >Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <main style="max-width: 95%; margin: 0 auto;"> <!-- Override width here -->
+    {{ content }}
+  </main>
+  <footer>
+    <p>© 2025 Jerrick Wang</p>
+  </footer>
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>
