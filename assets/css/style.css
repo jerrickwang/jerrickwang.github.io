@@ -112,32 +112,20 @@ button:hover {
 .image-container {
   position: relative; /* Allows us to position the background and image */
   display: inline-block;
-  text-align: center; /* Centers the content within each container */
+  text-align: center; /* Centers the content */
   margin-bottom: 20px; /* Adds space between each image */
   background: rgba(0, 0, 0, 0.3); /* Darken the background with 30% opacity */
   padding: 10px;
   border-radius: 8px; /* Optional: Rounds the corners of the container */
-  width: 100%; /* Ensures the container takes up the full width of the page */
-  display: flex; /* Use flexbox to layout the images */
-  justify-content: center; /* Centers images horizontally within the container */
-  align-items: center; /* Vertically centers content inside container */
 }
 
-/* Adjust the img tag */
+
 img {
   max-width: 500px; /* Max width */
   max-height: 500px; /* Max height */
   width: auto; /* Ensures images maintain aspect ratio */
   height: auto; /* Ensures images maintain aspect ratio */
   display: block; /* Makes images block-level elements (removes any unwanted spacing) */
-  margin: 0 auto; /* Centers images horizontally within each container */
+  margin: 0 auto; /* Centers images */
   border-radius: 8px; /* Optional: Rounds the corners of the images */
-}
-
-/* Additional styling to create multiple image rows with center alignment */
-.main-gallery {
-  display: flex; /* Use flexbox for the gallery layout */
-  flex-wrap: wrap; /* Allow images to wrap into new rows */
-  justify-content: center; /* Center the rows of images */
-  gap: 20px; /* Adds space between images */
 }
