@@ -239,8 +239,8 @@ button:hover {
 /* Blog Post Container */
 .blog-post-container {
   width: 90%;
-  margin: 20px auto; /* Reduced the margin to decrease space above the container */
-  padding: 0px;
+  margin: 0px auto; /* Reduced the margin to decrease space above the container */
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
