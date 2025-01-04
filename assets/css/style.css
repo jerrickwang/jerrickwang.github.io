@@ -1,49 +1,54 @@
 /* Global font styling with Montserrat */
 body {
-  font-family: 'Montserrat', Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat with fallback fonts */
+  line-height: 1.6; /* Improves readability */
   margin: 0;
   padding: 0;
   background-color: #EDF4F2;
-  color: #333;
-  box-sizing: border-box;
-  font-size: 18px;
+  color: #333; /* Default text color */
+  box-sizing: border-box; /* Applies box-sizing globally */
+  font-size: 18px; /* Increased base font size for better readability */
 }
 
-/* Header container to hold the logo, title, and nav */
-.header-container {
+/* Full-width navigation bar */
+nav {
+  background: #2d4d3c; /* Emerald dark green color for navbar */
+  color: #fff; /* Navigation text color */
+  width: 100%; /* Full screen width */
+  padding: 12px 0; /* Slightly larger padding for better touch targets */
+  position: sticky; /* Sticks to the top on scroll */
+  top: 0;
+  z-index: 1000; /* Ensures the nav bar stays above other elements */
+}
+
+/* Inner container to center navigation links */
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
-/* Logo Styling */
+/* Logo and name */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
   height: 50px;
   width: auto;
+  margin-right: 10px; /* Space between logo and text */
 }
 
-/* Title Styling */
-.page-title {
+.logo-name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
   font-weight: 700;
-  color: #333;
-  text-align: center;
-  flex-grow: 1;
+  color: #fff; /* White text color */
+  font-size: 1.8rem;
 }
 
-/* Navigation styling */
-nav {
-  flex-shrink: 0;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: flex-end;
-}
-
+/* Navigation links styling */
 nav ul {
   list-style: none;
   margin: 0;
@@ -69,15 +74,25 @@ nav ul li a:hover {
   background: #000;
 }
 
-/* Main content */
-main {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 30px 120px;
-  box-sizing: border-box;
+/* Page title styling */
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 25px 0;
+  font-size: 2.5rem;
+  color: #333;
 }
 
-/* Footer */
+/* Main content styling */
+main {
+  max-width: 80%; /* Limits the width of the main content */
+  margin: 0 auto; /* Centers the content */
+  padding: 30px 120px; /* Increased padding for better spacing */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Footer styling */
 footer {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -86,16 +101,42 @@ footer {
   color: #333;
 }
 
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Buttons */
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background: #444;
+}
+
 /* Image container */
 .image-container {
   position: relative;
   display: inline-block;
   text-align: center;
   margin-bottom: 25px;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 12px;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+  background: rgba(0, 0, 0, 0.3); /* Initial background with some opacity */
+  padding: 12px; /* Increased padding */
+  border-radius: 8px; /* Optional: Rounds the corners of the container */
+  transition: background 0.3s ease; /* Smooth transition for the background */
 }
 
 .image-container img {
@@ -105,13 +146,14 @@ footer {
   height: auto;
   display: block;
   margin: 0 auto;
-  cursor: pointer;
+  cursor: pointer; /* Shows a pointer cursor to indicate the image is clickable */
 }
 
 .image-container:hover {
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 1); /* Full black background on hover */
 }
 
+/* Image description (alt text) */
 .image-description {
   position: absolute;
   top: 50%;
@@ -193,6 +235,7 @@ footer {
   }
 }
 
+/* Blog Post Container */
 .blog-post-container {
   width: 90%;
   margin: 20px auto;
