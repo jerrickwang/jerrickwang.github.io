@@ -73,6 +73,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: #000;
+  border-radius: 8px; /* Slight corner rounding on hover */
 }
 
 /* Page title styling */
