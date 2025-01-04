@@ -68,6 +68,7 @@ nav ul li a {
   padding: 12px 20px;
   font-size: 1.1rem;
   transition: background 0.3s ease;
+  border-radius: 5px; /* Rounded corners for navigation items */
 }
 
 nav ul li a:hover {
