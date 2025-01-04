@@ -1,6 +1,6 @@
-/* Global font styling with Century Gothic */
+/* Global font styling with Montserrat */
 body {
-  font-family: 'Century Gothic', Arial, sans-serif; /* Use Century Gothic with fallback fonts */
+  font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat with fallback fonts */
   line-height: 1.6; /* Improves readability */
   margin: 0;
   padding: 0;
@@ -45,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to navigation links */
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to navigation links */
   font-weight: 400; /* Regular weight for navigation links */
   text-decoration: none; /* Removes underline from links */
   color: #fff; /* Link text color */
@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 /* Page title styling */
 header h1 {
-  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to the page title */
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to the page title */
   font-weight: 700; /* Bold weight for headers */
   text-align: center; /* Centers the page title */
   margin: 25px 0; /* Adds spacing above and below the title */
@@ -79,7 +79,7 @@ main {
 
 /* Footer styling */
 footer {
-  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to footer text */
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to footer text */
   font-weight: 400; /* Regular weight for footer text */
   text-align: center; /* Centers footer content */
   padding: 15px 0; /* Increased padding */
@@ -97,7 +97,7 @@ img {
 
 /* Buttons (optional styling) */
 button {
-  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to buttons */
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to buttons */
   font-weight: 400; /* Regular weight for buttons */
   padding: 12px 25px; /* Increased padding */
   border: none;
