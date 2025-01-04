@@ -22,7 +22,6 @@ body {
 .logo img {
   height: 50px;
   width: auto;
-  padding-top: 10px; /* Added padding from the top */
 }
 
 /* Title Styling */
