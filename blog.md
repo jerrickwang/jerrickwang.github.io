@@ -3,13 +3,16 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-
-<div class="blog-post-container">
-  <article class="blog-post">
-    <h3 class="post-title">New site!</h3>
-    <p class="post-date">Posted on: January 3, 2025</p>
-    <div class="post-body">
-      <p>Due to inspiration from my friend at Berkeley, I have created an online portfolio and blog to write about my experiences as a photographer in San Francisco and Berkeley. I think only 5 people will ever see this website but it's still fun for myself to track my own development as a photographer and document it. Thanks for reading!</p>
-    </div>
-  </article>
-</div>
+<!-- Blog Post Container -->
+{% for post in site.posts %}
+  <div class="blog-post-container">
+    <article class="blog-post">
+      <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="post-date">Posted on: {{ post.date | date: "%B %d, %Y" }}</p>
+      <div class="post-body">
+        <p>{{ post.excerpt }}</p> <!-- Display post excerpt -->
+        <a href="{{ post.url }}">Read more...</a> <!-- Link to full post -->
+      </div>
+    </article>
+  </div>
+{% endfor %}
