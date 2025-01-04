@@ -11,6 +11,9 @@ body {
   color: #333; /* Default text color */
   box-sizing: border-box; /* Applies box-sizing globally */
   font-size: 18px; /* Base font size */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body takes the full viewport height */
 }
 
 /* Full-width navigation bar */
@@ -94,6 +97,7 @@ main {
   margin: 0 auto;
   padding: 30px 120px;
   box-sizing: border-box;
+  flex: 1; /* Fills the remaining space between header and footer */
 }
 
 /* Footer styling */
@@ -219,20 +223,20 @@ button:hover {
 }
 
 .post-title {
-  font-size: 2rem; /* Consistent with global font sizes */
+  font-size: 2rem;
   font-weight: 700;
   color: #333;
   margin-bottom: 10px;
 }
 
 .post-date {
-  font-size: 1rem; /* Consistent with smaller text like dates */
+  font-size: 1rem;
   color: #777;
   margin-bottom: 20px;
 }
 
 .post-body {
-  font-size: 1.125rem; /* Matches global body font size */
+  font-size: 1.125rem;
   color: #333;
   line-height: 1.8;
 }
