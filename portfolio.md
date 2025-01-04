@@ -20,13 +20,13 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/IMG_1120.jpg" alt="Mallard Duck on a log" onclick="openModal(this)">
-  <div class="image-description">Mallard Duck on a log</div>
+  <img src="/assets/images/IMG_1120.jpg" alt="Mallard Duck on a Log" onclick="openModal(this)">
+  <div class="image-description">Mallard Duck on a Log</div>
 </div>
 
 <div class="image-container">
   <img src="/assets/images/IMG_1060.jpg" alt="Mallard duck stretching" onclick="openModal(this)">
-  <div class="image-description">Mallard duck stretching</div>
+  <div class="image-description">Mallard Duck Stretching</div>
 </div>
 
 <p>Shot on Canon Powershot SX20 IS</p>
