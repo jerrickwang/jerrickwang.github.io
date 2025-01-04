@@ -6,19 +6,5 @@ permalink: /contact/
 
 <p>Instagram: @majorwangpics</p>
 
-<p>Feel free to send me a message for inquiries. This form below will redirect to formspree after submitting.</p>
-
-<!-- Formspree contact form -->
-<form id="contactForm" method="POST" action="https://formspree.io/f/myzzbwwl">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-<br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-<br>
-  <label for="inquiry">Inquiry:</label>
-  <textarea id="inquiry" name="inquiry" required></textarea>
-<br>
-  <button type="submit">Submit</button>
-</form>
-
+<p>Feel free to send me a message for inquiries.</p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXoXncuNVMBQ-tjU8kDIE66yZCkXgZjJ7tBpbIWPlvZ1WIZA/viewform?usp=dialog" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
