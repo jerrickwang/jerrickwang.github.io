@@ -7,6 +7,7 @@ body {
   background-color: #EDF4F2;
   color: #333; /* Default text color */
   box-sizing: border-box; /* Applies box-sizing globally */
+  font-size: 18px; /* Increased base font size for better readability */
 }
 
 /* Full-width navigation bar */
@@ -14,7 +15,7 @@ nav {
   background: #31473A; /* Navigation bar background color */
   color: #fff; /* Navigation text color */
   width: 100%; /* Full screen width */
-  padding: 10px 0;
+  padding: 12px 0; /* Slightly larger padding for better touch targets */
   position: sticky; /* Sticks to the top on scroll */
   top: 0;
   z-index: 1000; /* Ensures the nav bar stays above other elements */
@@ -40,7 +41,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px; /* Space between navigation items */
+  margin: 0 20px; /* Increased margin for more space between items */
 }
 
 nav ul li a {
@@ -48,8 +49,9 @@ nav ul li a {
   font-weight: 400; /* Regular weight for navigation links */
   text-decoration: none; /* Removes underline from links */
   color: #fff; /* Link text color */
-  padding: 10px 15px;
+  padding: 12px 20px; /* Increased padding for better touch targets */
   display: block;
+  font-size: 1.1rem; /* Increased font size for better readability */
   transition: background 0.3s ease; /* Smooth hover effect */
 }
 
@@ -62,8 +64,8 @@ header h1 {
   font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to the page title */
   font-weight: 700; /* Bold weight for headers */
   text-align: center; /* Centers the page title */
-  margin: 20px 0; /* Adds spacing above and below the title */
-  font-size: 2rem; /* Adjusts title size */
+  margin: 25px 0; /* Adds spacing above and below the title */
+  font-size: 2.5rem; /* Increased title size */
   color: #333; /* Title text color */
 }
 
@@ -71,7 +73,7 @@ header h1 {
 main {
   max-width: 80%; /* Limits the width of the main content */
   margin: 0 auto; /* Centers the content */
-  padding: 20px 100px; /* Adds padding around the content */
+  padding: 30px 120px; /* Increased padding for better spacing */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
@@ -80,7 +82,7 @@ footer {
   font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to footer text */
   font-weight: 400; /* Regular weight for footer text */
   text-align: center; /* Centers footer content */
-  padding: 10px 0;
+  padding: 15px 0; /* Increased padding */
   background: #96d6b0; /* Optional footer background */
   color: #333; /* Footer text color */
 }
@@ -97,13 +99,14 @@ img {
 button {
   font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to buttons */
   font-weight: 400; /* Regular weight for buttons */
-  padding: 10px 20px;
+  padding: 12px 25px; /* Increased padding */
   border: none;
   border-radius: 5px;
   background: #333;
   color: #fff;
   cursor: pointer;
   transition: background 0.3s ease;
+  font-size: 1.1rem; /* Increased font size */
 }
 
 button:hover {
@@ -115,9 +118,9 @@ button:hover {
   position: relative; /* Allows us to position the background and image */
   display: inline-block;
   text-align: center; /* Centers the content */
-  margin-bottom: 20px; /* Adds space between each image */
+  margin-bottom: 25px; /* Increased space between each image */
   background: rgba(0, 0, 0, 0.3); /* Initial background with some opacity */
-  padding: 10px;
+  padding: 12px; /* Increased padding */
   border-radius: 8px; /* Optional: Rounds the corners of the container */
   transition: background 0.3s ease; /* Smooth transition for the background */
 }
@@ -145,7 +148,7 @@ button:hover {
   left: 50%; /* Horizontally center the text */
   transform: translate(-50%, -50%); /* Adjust the positioning for exact centering */
   color: #fff; /* White text for contrast */
-  font-size: 1.2rem; /* Adjusts the font size */
+  font-size: 1.5rem; /* Adjusted for increased text size */
   font-weight: bold; /* Makes the text bold */
   opacity: 0; /* Initially hide the text */
   transition: opacity 0.3s ease; /* Smooth transition for visibility */
@@ -203,7 +206,7 @@ button:hover {
   /* Adjust the navigation links padding and font size for mobile */
   nav ul li a {
     padding: 15px;
-    font-size: 1.1rem;
+    font-size: 1.2rem; /* Slightly increased font size for mobile */
   }
 
   /* Adjust the main content padding on smaller screens */
@@ -227,7 +230,7 @@ button:hover {
 
   /* Adjust font size for the page title */
   header h1 {
-    font-size: 1.8rem; /* Smaller font size for the page title on smaller screens */
+    font-size: 2.2rem; /* Larger font size on smaller screens */
   }
 }
 
@@ -243,7 +246,7 @@ button:hover {
 
 /* Post Title */
 .post-title {
-  font-size: 2rem; /* Larger title font size */
+  font-size: 2.5rem; /* Larger title font size */
   font-weight: 700; /* Bold title */
   color: #333; /* Dark color for the title */
   margin-bottom: 10px; /* Space below the title */
@@ -251,14 +254,14 @@ button:hover {
 
 /* Post Date */
 .post-date {
-  font-size: 1rem; /* Smaller font size for the date */
+  font-size: 1.2rem; /* Larger font size for the date */
   color: #777; /* Lighter color for the date */
   margin-bottom: 20px; /* Space below the date */
 }
 
 /* Post Body */
 .post-body {
-  font-size: 1.1rem; /* Normal font size for the content */
+  font-size: 1.2rem; /* Increased font size for the content */
   color: #333; /* Default text color */
   line-height: 1.8; /* Increase line height for readability */
 }
@@ -270,10 +273,10 @@ button:hover {
   }
 
   .post-title {
-    font-size: 1.6rem; /* Adjust title font size for smaller screens */
+    font-size: 2rem; /* Adjust title font size for smaller screens */
   }
 
   .post-body {
-    font-size: 1rem; /* Adjust font size of the body */
+    font-size: 1.1rem; /* Adjust font size of the body */
   }
 }
