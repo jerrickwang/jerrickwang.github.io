@@ -1,190 +1,158 @@
 /* Global font styling with Montserrat */
 body {
-  font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat with fallback fonts */
-  line-height: 1.6; /* Improves readability */
+  font-family: 'Montserrat', Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #EDF4F2;
-  color: #333; /* Default text color */
-  box-sizing: border-box; /* Applies box-sizing globally */
-  font-size: 18px; /* Increased base font size for better readability */
+  color: #333;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
-/* Full-width navigation bar */
-nav {
-  background: #31473A; /* Navigation bar background color */
-  color: #fff; /* Navigation text color */
-  width: 100%; /* Full screen width */
-  padding: 12px 0; /* Slightly larger padding for better touch targets */
-  position: sticky; /* Sticks to the top on scroll */
-  top: 0;
-  z-index: 1000; /* Ensures the nav bar stays above other elements */
-}
-
-/* Inner container to center navigation links */
-.nav-container {
-  max-width: 80%; /* Limits the width of navigation content */
-  margin: 0 auto; /* Centers the navigation links */
-  padding: 0 20px; /* Adds padding for spacing */
+/* Header container to hold the logo, title, and nav */
+.header-container {
   display: flex;
-  justify-content: center; /* Centers the links horizontally */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-/* Navigation links styling */
+/* Logo Styling */
+.logo img {
+  height: 50px;
+  width: auto;
+  padding-top: 10px; /* Added padding from the top */
+}
+
+/* Title Styling */
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* Navigation styling */
+nav {
+  flex-shrink: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 nav ul {
-  list-style: none; /* Removes default bullets */
+  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* Allows the links to wrap on smaller screens */
-  justify-content: center; /* Centers the links */
 }
 
 nav ul li {
-  margin: 0 20px; /* Increased margin for more space between items */
+  margin: 0 20px;
 }
 
 nav ul li a {
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to navigation links */
-  font-weight: 400; /* Regular weight for navigation links */
-  text-decoration: none; /* Removes underline from links */
-  color: #fff; /* Link text color */
-  padding: 12px 20px; /* Increased padding for better touch targets */
-  display: block;
-  font-size: 1.1rem; /* Increased font size for better readability */
-  transition: background 0.3s ease; /* Smooth hover effect */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
 }
 
 nav ul li a:hover {
-  background: #000; /* Darker background on hover */
+  background: #000;
 }
 
-/* Page title styling */
-header h1 {
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to the page title */
-  font-weight: 700; /* Bold weight for headers */
-  text-align: center; /* Centers the page title */
-  margin: 25px 0; /* Adds spacing above and below the title */
-  font-size: 2.5rem; /* Increased title size */
-  color: #333; /* Title text color */
-}
-
-/* Main content styling */
+/* Main content */
 main {
-  max-width: 80%; /* Limits the width of the main content */
-  margin: 0 auto; /* Centers the content */
-  padding: 30px 120px; /* Increased padding for better spacing */
-  box-sizing: border-box; /* Ensures padding doesn't affect width */
-}
-
-/* Footer styling */
-footer {
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to footer text */
-  font-weight: 400; /* Regular weight for footer text */
-  text-align: center; /* Centers footer content */
-  padding: 15px 0; /* Increased padding */
-  background: #96d6b0; /* Optional footer background */
-  color: #333; /* Footer text color */
-}
-
-/* Images */
-img {
-  max-width: 100%; /* Ensures images don't overflow their container */
-  height: auto; /* Maintains aspect ratio */
-  display: block;
-  margin: 0 auto; /* Centers images */
-}
-
-/* Buttons (optional styling) */
-button {
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat to buttons */
-  font-weight: 400; /* Regular weight for buttons */
-  padding: 12px 25px; /* Increased padding */
-  border: none;
-  border-radius: 5px;
-  background: #333;
-  color: #fff;
-  cursor: pointer;
-  transition: background 0.3s ease;
-  font-size: 1.1rem; /* Increased font size */
-}
-
-button:hover {
-  background: #444;
-}
-
-/* Style the image containers */
-.image-container {
-  position: relative; /* Allows us to position the background and image */
-  display: inline-block;
-  text-align: center; /* Centers the content */
-  margin-bottom: 25px; /* Increased space between each image */
-  background: rgba(0, 0, 0, 0.3); /* Initial background with some opacity */
-  padding: 12px; /* Increased padding */
-  border-radius: 8px; /* Optional: Rounds the corners of the container */
-  transition: background 0.3s ease; /* Smooth transition for the background */
-}
-
-/* Image styling */
-.image-container img {
-  max-width: 500px; /* Max width */
-  max-height: 500px; /* Max height */
-  width: auto; /* Ensures images maintain aspect ratio */
-  height: auto; /* Ensures images maintain aspect ratio */
-  display: block; /* Makes images block-level elements (removes any unwanted spacing) */
-  margin: 0 auto; /* Centers images */
-  cursor: pointer; /* Shows a pointer cursor to indicate the image is clickable */
-}
-
-/* Hover effect on the image container */
-.image-container:hover {
-  background: rgba(0, 0, 0, 1); /* Full black background on hover */
-}
-
-/* Style the image description (alt text) */
-.image-description {
-  position: absolute;
-  top: 50%; /* Vertically center the text */
-  left: 50%; /* Horizontally center the text */
-  transform: translate(-50%, -50%); /* Adjust the positioning for exact centering */
-  color: #fff; /* White text for contrast */
-  font-size: 1.5rem; /* Adjusted for increased text size */
-  font-weight: bold; /* Makes the text bold */
-  opacity: 0; /* Initially hide the text */
-  transition: opacity 0.3s ease; /* Smooth transition for visibility */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow to the text */
-}
-
-/* Show the alt text when hovering over the image container */
-.image-container:hover .image-description {
-  opacity: 1; /* Show the alt text on hover */
-}
-
-/* Modal (Fullscreen View) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed position to cover the screen */
-  z-index: 1000; /* Make sure modal is above other content */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full screen */
-  height: 100%; /* Full screen */
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-  overflow: hidden; /* Prevents any scrolling within the modal */
-  cursor: pointer; /* Allows clicking anywhere to close */
-}
-
-/* Modal image styling */
-.modal-content {
-  display: block;
-  max-width: 100%; /* Ensures the image doesn't exceed the modal width */
-  max-height: 100%; /* Ensures the image doesn't exceed the modal height */
-  margin: auto; /* Centers the image horizontally and vertically */
-  object-fit: contain; /* Ensures the image maintains its aspect ratio */
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px 120px;
   box-sizing: border-box;
 }
 
-/* Close button styling */
+/* Footer */
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 15px 0;
+  background: #96d6b0;
+  color: #333;
+}
+
+/* Image container */
+.image-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.image-container img {
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.image-container:hover {
+  background: rgba(0, 0, 0, 1);
+}
+
+.image-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.image-container:hover .image-description {
+  opacity: 1;
+}
+
+/* Modal for full-screen image */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
 .close {
   position: absolute;
   top: 15px;
@@ -197,86 +165,73 @@ button:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  /* Stack the navigation items vertically on smaller screens */
   nav ul {
     flex-direction: column;
     align-items: center;
   }
 
-  /* Adjust the navigation links padding and font size for mobile */
   nav ul li a {
     padding: 15px;
-    font-size: 1.2rem; /* Slightly increased font size for mobile */
+    font-size: 1.2rem;
   }
 
-  /* Adjust the main content padding on smaller screens */
   main {
     padding: 20px 30px;
   }
 
-  /* Adjust image container width for mobile */
   .image-container {
-    max-width: 90%; /* Ensure image containers take up less width on small screens */
-    margin: 0 auto; /* Center the image containers */
+    max-width: 90%;
+    margin: 0 auto;
   }
 
-  /* Ensure images scale properly and fit within their containers on mobile */
   .image-container img {
-    max-width: 100%; /* Ensure the image doesn't extend beyond its container */
-    max-height: 400px; /* Limit the image height to 400px (or adjust as needed) */
-    width: auto; /* Maintain aspect ratio */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    max-height: 400px;
   }
 
-  /* Adjust font size for the page title */
   header h1 {
-    font-size: 2.2rem; /* Larger font size on smaller screens */
+    font-size: 2.2rem;
   }
 }
 
-/* Blog Post Container */
 .blog-post-container {
-  width: 90%; /* Adjust width of the container */
-  margin: 20px auto; /* Center the container */
-  padding: 20px; /* Add space around the content */
-  background-color: rgba(0, 0, 0, 0.1); /* Slightly darkened background */
-  border-radius: 8px; /* Rounded corners for the container */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better separation */
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Post Title */
 .post-title {
-  font-size: 2.5rem; /* Larger title font size */
-  font-weight: 700; /* Bold title */
-  color: #333; /* Dark color for the title */
-  margin-bottom: 10px; /* Space below the title */
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-/* Post Date */
 .post-date {
-  font-size: 1.2rem; /* Larger font size for the date */
-  color: #777; /* Lighter color for the date */
-  margin-bottom: 20px; /* Space below the date */
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 20px;
 }
 
-/* Post Body */
 .post-body {
-  font-size: 1.2rem; /* Increased font size for the content */
-  color: #333; /* Default text color */
-  line-height: 1.8; /* Increase line height for readability */
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.8;
 }
 
-/* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
   .blog-post-container {
-    width: 95%; /* Make the container a bit smaller on mobile */
+    width: 95%;
   }
 
   .post-title {
-    font-size: 2rem; /* Adjust title font size for smaller screens */
+    font-size: 2rem;
   }
 
   .post-body {
-    font-size: 1.1rem; /* Adjust font size of the body */
+    font-size: 1.1rem;
   }
 }
