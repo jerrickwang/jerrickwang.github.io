@@ -92,7 +92,6 @@ main {
   margin: 0 auto;
   padding: 30px 120px;
   box-sizing: border-box;
-  flex-grow: 1; /* Ensures that the main content takes up available space */
 }
 
 /* Footer styling */
