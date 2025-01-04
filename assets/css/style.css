@@ -250,7 +250,7 @@ button:hover {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;
-  margin-bottom: 0px; /* Reduced space below the title */
+  margin-bottom: 20px; /* Reduced space below the title */
 }
 
 .post-date {
