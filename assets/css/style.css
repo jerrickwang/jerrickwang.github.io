@@ -123,7 +123,7 @@ button:hover {
 }
 
 /* Image styling */
-img {
+.image-container img {
   max-width: 500px; /* Max width */
   max-height: 500px; /* Max height */
   width: auto; /* Ensures images maintain aspect ratio */
@@ -136,6 +136,24 @@ img {
 /* Hover effect on the image container */
 .image-container:hover {
   background: rgba(0, 0, 0, 1); /* Full black background on hover */
+}
+
+/* Style the image description (alt text) */
+.image-description {
+  position: absolute;
+  top: 50%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%); /* Adjust the positioning for exact centering */
+  color: #fff; /* White text for contrast */
+  font-size: 1.2rem; /* Adjusts the font size */
+  font-weight: bold; /* Makes the text bold */
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+/* Show the alt text when hovering over the image container */
+.image-container:hover .image-description {
+  opacity: 1; /* Show the alt text on hover */
 }
 
 /* Modal (Fullscreen View) */
