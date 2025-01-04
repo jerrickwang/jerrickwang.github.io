@@ -1,21 +1,21 @@
 /* Global font styling with Century Gothic */
 body {
-  font-family: 'Lato', Arial, sans-serif; /* Use Lato for body text */
+  font-family: 'Century Gothic', Arial, sans-serif; /* Use Century Gothic with fallback fonts */
   line-height: 1.6; /* Improves readability */
   margin: 0;
   padding: 0;
   background-color: #EDF4F2;
   color: #333; /* Default text color */
   box-sizing: border-box; /* Applies box-sizing globally */
+  font-size: 18px; /* Increased base font size for better readability */
 }
 
 /* Full-width navigation bar */
 nav {
-  font-family: 'Century Gothic', sans-serif; /* Century Gothic for nav text */
   background: #31473A; /* Navigation bar background color */
   color: #fff; /* Navigation text color */
   width: 100%; /* Full screen width */
-  padding: 10px 0;
+  padding: 12px 0; /* Slightly larger padding for better touch targets */
   position: sticky; /* Sticks to the top on scroll */
   top: 0;
   z-index: 1000; /* Ensures the nav bar stays above other elements */
@@ -41,16 +41,17 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px; /* Space between navigation items */
+  margin: 0 20px; /* Increased margin for more space between items */
 }
 
 nav ul li a {
-  font-family: 'Century Gothic', sans-serif; /* Century Gothic for navigation links */
+  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to navigation links */
   font-weight: 400; /* Regular weight for navigation links */
   text-decoration: none; /* Removes underline from links */
   color: #fff; /* Link text color */
-  padding: 10px 15px;
+  padding: 12px 20px; /* Increased padding for better touch targets */
   display: block;
+  font-size: 1.1rem; /* Increased font size for better readability */
   transition: background 0.3s ease; /* Smooth hover effect */
 }
 
@@ -60,11 +61,11 @@ nav ul li a:hover {
 
 /* Page title styling */
 header h1 {
-  font-family: 'Century Gothic', sans-serif; /* Century Gothic for title */
+  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to the page title */
   font-weight: 700; /* Bold weight for headers */
   text-align: center; /* Centers the page title */
-  margin: 20px 0; /* Adds spacing above and below the title */
-  font-size: 2rem; /* Adjusts title size */
+  margin: 25px 0; /* Adds spacing above and below the title */
+  font-size: 2.5rem; /* Increased title size */
   color: #333; /* Title text color */
 }
 
@@ -72,16 +73,16 @@ header h1 {
 main {
   max-width: 80%; /* Limits the width of the main content */
   margin: 0 auto; /* Centers the content */
-  padding: 20px 100px; /* Adds padding around the content */
+  padding: 30px 120px; /* Increased padding for better spacing */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 /* Footer styling */
 footer {
-  font-family: 'Century Gothic', sans-serif; /* Century Gothic for footer text */
+  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to footer text */
   font-weight: 400; /* Regular weight for footer text */
   text-align: center; /* Centers footer content */
-  padding: 10px 0;
+  padding: 15px 0; /* Increased padding */
   background: #96d6b0; /* Optional footer background */
   color: #333; /* Footer text color */
 }
@@ -96,15 +97,16 @@ img {
 
 /* Buttons (optional styling) */
 button {
-  font-family: 'Century Gothic', sans-serif; /* Century Gothic for buttons */
+  font-family: 'Century Gothic', sans-serif; /* Apply Century Gothic to buttons */
   font-weight: 400; /* Regular weight for buttons */
-  padding: 10px 20px;
+  padding: 12px 25px; /* Increased padding */
   border: none;
   border-radius: 5px;
   background: #333;
   color: #fff;
   cursor: pointer;
   transition: background 0.3s ease;
+  font-size: 1.1rem; /* Increased font size */
 }
 
 button:hover {
@@ -116,9 +118,9 @@ button:hover {
   position: relative; /* Allows us to position the background and image */
   display: inline-block;
   text-align: center; /* Centers the content */
-  margin-bottom: 20px; /* Adds space between each image */
+  margin-bottom: 25px; /* Increased space between each image */
   background: rgba(0, 0, 0, 0.3); /* Initial background with some opacity */
-  padding: 10px;
+  padding: 12px; /* Increased padding */
   border-radius: 8px; /* Optional: Rounds the corners of the container */
   transition: background 0.3s ease; /* Smooth transition for the background */
 }
@@ -137,6 +139,25 @@ button:hover {
 /* Hover effect on the image container */
 .image-container:hover {
   background: rgba(0, 0, 0, 1); /* Full black background on hover */
+}
+
+/* Style the image description (alt text) */
+.image-description {
+  position: absolute;
+  top: 50%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%); /* Adjust the positioning for exact centering */
+  color: #fff; /* White text for contrast */
+  font-size: 1.5rem; /* Adjusted for increased text size */
+  font-weight: bold; /* Makes the text bold */
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s ease; /* Smooth transition for visibility */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow to the text */
+}
+
+/* Show the alt text when hovering over the image container */
+.image-container:hover .image-description {
+  opacity: 1; /* Show the alt text on hover */
 }
 
 /* Modal (Fullscreen View) */
@@ -185,7 +206,7 @@ button:hover {
   /* Adjust the navigation links padding and font size for mobile */
   nav ul li a {
     padding: 15px;
-    font-size: 1.1rem;
+    font-size: 1.2rem; /* Slightly increased font size for mobile */
   }
 
   /* Adjust the main content padding on smaller screens */
@@ -209,6 +230,53 @@ button:hover {
 
   /* Adjust font size for the page title */
   header h1 {
-    font-size: 1.8rem; /* Smaller font size for the page title on smaller screens */
+    font-size: 2.2rem; /* Larger font size on smaller screens */
+  }
+}
+
+/* Blog Post Container */
+.blog-post-container {
+  width: 90%; /* Adjust width of the container */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Add space around the content */
+  background-color: rgba(0, 0, 0, 0.1); /* Slightly darkened background */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better separation */
+}
+
+/* Post Title */
+.post-title {
+  font-size: 2.5rem; /* Larger title font size */
+  font-weight: 700; /* Bold title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+/* Post Date */
+.post-date {
+  font-size: 1.2rem; /* Larger font size for the date */
+  color: #777; /* Lighter color for the date */
+  margin-bottom: 20px; /* Space below the date */
+}
+
+/* Post Body */
+.post-body {
+  font-size: 1.2rem; /* Increased font size for the content */
+  color: #333; /* Default text color */
+  line-height: 1.8; /* Increase line height for readability */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .blog-post-container {
+    width: 95%; /* Make the container a bit smaller on mobile */
+  }
+
+  .post-title {
+    font-size: 2rem; /* Adjust title font size for smaller screens */
+  }
+
+  .post-body {
+    font-size: 1.1rem; /* Adjust font size of the body */
   }
 }
