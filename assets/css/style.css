@@ -230,3 +230,49 @@ button:hover {
     font-size: 1.8rem; /* Smaller font size for the page title on smaller screens */
   }
 }
+/* Blog Post Container */
+.blog-post-container {
+  width: 90%; /* Adjust width of the container */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Add space around the content */
+  background-color: rgba(0, 0, 0, 0.1); /* Slightly darkened background */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better separation */
+}
+
+/* Post Title */
+.post-title {
+  font-size: 2rem; /* Larger title font size */
+  font-weight: 700; /* Bold title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+/* Post Date */
+.post-date {
+  font-size: 1rem; /* Smaller font size for the date */
+  color: #777; /* Lighter color for the date */
+  margin-bottom: 20px; /* Space below the date */
+}
+
+/* Post Body */
+.post-body {
+  font-size: 1.1rem; /* Normal font size for the content */
+  color: #333; /* Default text color */
+  line-height: 1.8; /* Increase line height for readability */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .blog-post-container {
+    width: 95%; /* Make the container a bit smaller on mobile */
+  }
+
+  .post-title {
+    font-size: 1.6rem; /* Adjust title font size for smaller screens */
+  }
+
+  .post-body {
+    font-size: 1rem; /* Adjust font size of the body */
+  }
+}
