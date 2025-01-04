@@ -6,10 +6,10 @@ permalink: /blog/
 
 <div class="blog-post-container">
   <article class="blog-post">
-    <p class="post-title">Just a test on the blog.</p>
+    <p class="post-title">Blog update!</p>
     <p class="post-date">Posted on: January 3, 2025</p>
     <div class="post-body">
-      <p>Need to test this out.</p>
+      <p>Fully operational blog and all other parts of the site are also working too! I will be making small visual improvements over time.</p>
     </div>
   </article>
 </div>
