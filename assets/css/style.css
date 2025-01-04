@@ -73,7 +73,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background: #000;
-  border-radius: 8px; /* Slight corner rounding on hover */
 }
 
 /* Page title styling */
@@ -240,7 +239,7 @@ button:hover {
 /* Blog Post Container */
 .blog-post-container {
   width: 90%;
-  margin: 20px auto;
+  margin: 10px auto; /* Reduced the margin to decrease space above the container */
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -251,13 +250,13 @@ button:hover {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Reduced space below the title */
 }
 
 .post-date {
   font-size: 1.2rem;
   color: #777;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Reduced space below the date */
 }
 
 .post-body {
