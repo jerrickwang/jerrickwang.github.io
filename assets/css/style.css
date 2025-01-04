@@ -11,9 +11,6 @@ body {
   color: #333; /* Default text color */
   box-sizing: border-box; /* Applies box-sizing globally */
   font-size: 18px; /* Base font size */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensures the body takes the full viewport height */
 }
 
 /* Full-width navigation bar */
@@ -93,12 +90,11 @@ header h1 {
 
 /* Main content styling */
 main {
-  max-width: 1200px; /* Sets a consistent container width */
+  max-width: 1000px; /* Reduced maximum width for better alignment */
   width: 100%;
-  margin: 0 auto; /* Centers the content horizontally */
-  padding: 20px; /* Standard padding for all pages */
-  box-sizing: border-box; /* Ensures padding does not affect width */
-  flex: 1; /* Fills the remaining space between header and footer */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 /* Footer styling */
@@ -149,7 +145,7 @@ button:hover {
 }
 
 .image-container img {
-  max-width: 500px;
+  max-width: 800px; /* Reduced maximum allowed width for images */
   max-height: 500px;
   width: auto;
   height: auto;
@@ -216,7 +212,7 @@ button:hover {
 /* Blog Post Container */
 .blog-post-container {
   width: 100%;
-  max-width: 800px; /* Ensures blog posts are narrower than main content */
+  max-width: 900px; /* Increased width for blog posts */
   margin: 20px auto;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.1);
