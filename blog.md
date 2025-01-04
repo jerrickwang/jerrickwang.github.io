@@ -6,6 +6,16 @@ permalink: /blog/
 
 <div class="blog-post-container">
   <article class="blog-post">
+    <h3 class="post-title">Just a test on the blog.</h3>
+    <p class="post-date">Posted on: January 3, 2025</p>
+    <div class="post-body">
+      <p>Need to test this out.</p>
+    </div>
+  </article>
+</div>
+
+<div class="blog-post-container">
+  <article class="blog-post">
     <h3 class="post-title">New site!</h3>
     <p class="post-date">Posted on: January 3, 2025</p>
     <div class="post-body">
