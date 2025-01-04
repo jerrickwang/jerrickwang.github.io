@@ -3,15 +3,13 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-<!-- Blog Post Container -->
+
 <div class="blog-post-container">
   <article class="blog-post">
-    <h3 class="post-title">Post Title</h3>
-    <p class="post-date">Posted on: {{ page.date | date: "%B %d, %Y" }}</p>
+    <h3 class="post-title">New site!</h3>
+    <p class="post-date">Posted on: January 3, 2025</p>
     <div class="post-body">
-      <p>Here is the body of the post. You can add your experiences, thoughts, and more about photography and cameras.</p>
+      <p>Due to inspiration from my friend at Berkeley, I have created an online portfolio and blog to write about my experiences as a photographer in San Francisco and Berkeley. I think only 5 people will ever see this website but it's still fun for myself to track my own development as a photographer and document it. Thanks for reading!</p>
     </div>
   </article>
 </div>
-
-<!-- Add more blog posts here -->
