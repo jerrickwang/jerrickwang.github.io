@@ -149,6 +149,7 @@ button:hover {
   font-weight: bold; /* Makes the text bold */
   opacity: 0; /* Initially hide the text */
   transition: opacity 0.3s ease; /* Smooth transition for visibility */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow to the text */
 }
 
 /* Show the alt text when hovering over the image container */
