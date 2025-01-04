@@ -1,31 +1,27 @@
 /* Global font styling with Montserrat */
 body {
-  font-family: 'Montserrat', Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat with fallback fonts */
+  line-height: 1.6; /* Improves readability */
   margin: 0;
   padding: 0;
   background-color: #EDF4F2;
-  color: #333;
-  box-sizing: border-box;
-  font-size: 18px;
-  
-  /* Use flexbox to layout body content */
-  display: flex;
-  flex-direction: column; /* Align the children (header, main, footer) vertically */
-  min-height: 100vh; /* Ensures that the body takes at least the full height of the viewport */
+  color: #333; /* Default text color */
+  box-sizing: border-box; /* Applies box-sizing globally */
+  font-size: 18px; /* Increased base font size for better readability */
 }
 
 /* Full-width navigation bar */
 nav {
-  background: #2d4d3c;
-  color: #fff;
-  width: 100%;
-  padding: 12px 0;
-  position: sticky;
+  background: #2d4d3c; /* Emerald dark green color for navbar */
+  color: #fff; /* Navigation text color */
+  width: 100%; /* Full screen width */
+  padding: 12px 0; /* Slightly larger padding for better touch targets */
+  position: sticky; /* Sticks to the top on scroll */
   top: 0;
-  z-index: 1000;
+  z-index: 1000; /* Ensures the nav bar stays above other elements */
 }
 
+/* Inner container to center navigation links */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -33,6 +29,7 @@ nav {
   padding: 0 20px;
 }
 
+/* Logo and name */
 .logo {
   display: flex;
   align-items: center;
@@ -41,15 +38,17 @@ nav {
 .logo img {
   height: 50px;
   width: auto;
-  margin-right: 10px;
+  margin-right: 10px; /* Space between logo and text */
 }
 
 .logo-name {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: #fff; /* White text color */
   font-size: 1.8rem;
 }
 
+/* Navigation links styling */
 nav ul {
   list-style: none;
   margin: 0;
@@ -69,7 +68,7 @@ nav ul li a {
   padding: 12px 20px;
   font-size: 1.1rem;
   transition: background 0.3s ease;
-  border-radius: 5px;
+  border-radius: 5px; /* Rounded corners for navigation items */
 }
 
 nav ul li a:hover {
@@ -88,10 +87,10 @@ header h1 {
 
 /* Main content styling */
 main {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 30px 120px;
-  box-sizing: border-box;
+  max-width: 80%; /* Limits the width of the main content */
+  margin: 0 auto; /* Centers the content */
+  padding: 30px 120px; /* Increased padding for better spacing */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 /* Footer styling */
@@ -103,7 +102,7 @@ footer {
   color: #333;
 }
 
-/* Other styles */
+/* Images */
 img {
   max-width: 100%;
   height: auto;
@@ -111,6 +110,7 @@ img {
   margin: 0 auto;
 }
 
+/* Buttons */
 button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -134,10 +134,10 @@ button:hover {
   display: inline-block;
   text-align: center;
   margin-bottom: 25px;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 12px;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+  background: rgba(0, 0, 0, 0.3); /* Initial background with some opacity */
+  padding: 12px; /* Increased padding */
+  border-radius: 8px; /* Optional: Rounds the corners of the container */
+  transition: background 0.3s ease; /* Smooth transition for the background */
 }
 
 .image-container img {
@@ -147,13 +147,14 @@ button:hover {
   height: auto;
   display: block;
   margin: 0 auto;
-  cursor: pointer;
+  cursor: pointer; /* Shows a pointer cursor to indicate the image is clickable */
 }
 
 .image-container:hover {
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 1); /* Full black background on hover */
 }
 
+/* Image description (alt text) */
 .image-description {
   position: absolute;
   top: 50%;
@@ -235,6 +236,7 @@ button:hover {
   }
 }
 
+/* Blog Post Container */
 .blog-post-container {
   width: 90%;
   margin: 20px auto;
@@ -276,4 +278,3 @@ button:hover {
     font-size: 1.1rem;
   }
 }
-
