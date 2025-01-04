@@ -93,10 +93,11 @@ header h1 {
 
 /* Main content styling */
 main {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 30px 120px;
-  box-sizing: border-box;
+  max-width: 1200px; /* Sets a consistent container width */
+  width: 100%;
+  margin: 0 auto; /* Centers the content horizontally */
+  padding: 20px; /* Standard padding for all pages */
+  box-sizing: border-box; /* Ensures padding does not affect width */
   flex: 1; /* Fills the remaining space between header and footer */
 }
 
@@ -214,7 +215,8 @@ button:hover {
 
 /* Blog Post Container */
 .blog-post-container {
-  width: 90%;
+  width: 100%;
+  max-width: 800px; /* Ensures blog posts are narrower than main content */
   margin: 20px auto;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -254,7 +256,7 @@ button:hover {
   }
 
   main {
-    padding: 20px 30px;
+    padding: 20px;
   }
 
   .image-container {
