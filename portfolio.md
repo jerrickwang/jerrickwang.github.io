@@ -43,7 +43,7 @@ permalink: /portfolio/
 
 <div class="image-container">
   <img src="/assets/images/2-04.jpg" alt="Cafe" onclick="openModal(this)">
-  <div class="image-description">Cafe</div>
+  <div class="image-description">Café</div>
 </div>
 
 <div class="image-container">
