@@ -9,36 +9,38 @@
 </head>
 <body>
   <header>
-    <div class="header-container">
-      <!-- Logo Section -->
-      <div class="logo">
-        <img src="{{ '/jw.png' | relative_url }}" alt="Logo">
-      </div>
-      <!-- Page Title Section -->
-      <h1 class="page-title">{{ page.title }}</h1>
-      <!-- Navigation Bar -->
-      <nav>
-        <div class="nav-container">
-          <ul>
-            <li><a href="{{ '/' | relative_url }}" >Home</a></li>
-            <li><a href="{{ '/portfolio/' | relative_url }}" >Portfolio</a></li>
-            <li><a href="{{ '/blog/' | relative_url }}" >Blog</a></li>
-            <li><a href="{{ '/about/' | relative_url }}" >About</a></li>
-            <li><a href="{{ '/contact/' | relative_url }}" >Contact</a></li>
-          </ul>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <img src="{{ '/jw.png' | relative_url }}" alt="Logo">
+          <span class="logo-name">Jerrick Wang</span>
         </div>
-      </nav>
-    </div>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}" >Home</a></li>
+          <li><a href="{{ '/portfolio/' | relative_url }}" >Portfolio</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}" >Blog</a></li>
+          <li><a href="{{ '/about/' | relative_url }}" >About</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}" >Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>{{ page.title }}</h1> <!-- Page title moved below navbar -->
   </header>
-  
+
   <main style="max-width: 95%; margin: 0 auto;">
     {{ content }}
   </main>
 
+  <!-- Modal for full-screen image -->
+  <div id="imageModal" style="display: none;">
+    <span id="close" style="font-size: 30px; cursor: pointer;">&times;</span>
+    <img id="modalImage" src="" alt="Modal Image" />
+  </div>
+
   <footer>
     <p>© 2025 Jerrick Wang</p>
   </footer>
-  
+
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>
