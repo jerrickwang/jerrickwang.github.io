@@ -1,3 +1,6 @@
+/* Import Google Font Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 /* Global font styling with Montserrat */
 body {
   font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat with fallback fonts */
