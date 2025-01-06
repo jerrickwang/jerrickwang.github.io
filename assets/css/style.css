@@ -78,8 +78,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #000; /* Darker background on hover */
-  color: #fff; /* Ensures text remains white on hover */
+  background: #fff; /* Darker background on hover */
+  color: #000; /* Ensures text remains white on hover */
 }
 
 /* Page title styling */
