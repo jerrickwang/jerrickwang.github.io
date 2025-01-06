@@ -70,15 +70,16 @@ nav ul li a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-decoration: none;
-  color: #fff;
+  color: #fff; /* Initial text color */
   padding: 12px 20px;
   font-size: 1.1rem;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease; /* Add color transition */
   border-radius: 5px; /* Rounded corners for navigation items */
 }
 
 nav ul li a:hover {
-  background: #000;
+  background: #000; /* Darker background on hover */
+  color: #fff; /* Ensures text remains white on hover */
 }
 
 /* Page title styling */
