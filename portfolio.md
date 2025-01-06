@@ -20,6 +20,26 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
+  <img src="/assets/images/4-3.jpg" alt="Sutro Tower from Alamo Square" onclick="openModal(this)">
+  <div class="image-description">Sutro Tower from Alamo Square</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/4-4.jpg" alt="Painted Ladies" onclick="openModal(this)">
+  <div class="image-description">Painted Ladies</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/4-2.jpg" alt="Dog at Alamo Square" onclick="openModal(this)">
+  <div class="image-description">Dog at Alamo Square</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/4-1.jpg" alt="Ocean Beach at Sunset" onclick="openModal(this)">
+  <div class="image-description">Ocean Beach at Sunset</div>
+</div>
+
+<div class="image-container">
   <img src="/assets/images/IMG_1120.jpg" alt="Mallard Duck on a Log" onclick="openModal(this)">
   <div class="image-description">Mallard Duck on a Log</div>
 </div>
