@@ -3,6 +3,15 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
+<div class="blog-post-container">
+  <article class="blog-post">
+    <p class="post-title">New photos from Alamo Square</p>
+    <p class="post-date">January 6, 2025</p>
+    <div class="post-body">
+      <p>Went to Alamo Square and got licked by a dog but it was worth the picture, I think. Unfortunately, the Painted Ladies weren't as nice as I thought. Thinking about going to see lower Haight-Ashbury next.</p>
+    </div>
+  </article>
+</div>
 
 <div class="blog-post-container">
   <article class="blog-post">
