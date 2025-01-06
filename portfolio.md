@@ -3,7 +3,7 @@ layout: wide
 title: Portfolio
 permalink: /portfolio/
 ---
-<p>Shot on Canon T6</p>
+<h1>Shot on Canon T6</h1>
 
 <div class="image-container">
   <img src="/assets/images/4-3.jpg" alt="Sutro Tower from Alamo Square" onclick="openModal(this)">
@@ -50,7 +50,7 @@ permalink: /portfolio/
   <div class="image-description">Mallard Duck Stretching</div>
 </div>
 
-<p>Shot on Canon Powershot SX20 IS</p>
+<h1>Shot on Canon Powershot SX20 IS</h1>
 
 <div class="image-container">
   <img src="/assets/images/2-01.jpg" alt="Elmwood Theater" onclick="openModal(this)">
