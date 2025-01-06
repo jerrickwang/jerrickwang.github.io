@@ -14,6 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Ensures the body takes the full viewport height */
+  opacity: 1; /* For smooth transitions */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition for page opacity */
+}
+
+body.fade-out {
+  opacity: 0; /* Fades out the page */
 }
 
 /* Full-width navigation bar */
@@ -79,7 +85,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: #fff; /* Light background on hover */
-  color: #000; /* Darker text color on hover */
+  color: #000; /* Dark text on hover */
 }
 
 /* Page title styling */
@@ -151,7 +157,7 @@ button:hover {
 
 .image-container img {
   max-width: 500px;
-  max-height: 400px; /* Adjusted max height for images */
+  max-height: 500px;
   width: auto;
   height: auto;
   display: block;
@@ -163,91 +169,34 @@ button:hover {
   background: rgba(0, 0, 0, 1);
 }
 
-/* Image description (alt text) */
-.image-description {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-.image-container:hover .image-description {
-  opacity: 1;
-}
-
-/* Modal for full-screen image */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.modal-content {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-  object-fit: contain;
-  box-sizing: border-box;
-}
-
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #fff;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
 /* Blog Post Container */
 .blog-post-container {
-  width: 95%; /* Increased width for better use of space */
-  max-width: 750px; /* Reduced maximum width for better visuals on larger screens */
-  margin: 15px auto; /* Tighter spacing between posts */
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Blog Post Title */
 .post-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #333;
   margin-bottom: 10px;
-  text-align: left;
 }
 
-/* Blog Post Date */
 .post-date {
   font-size: 1rem;
   color: #777;
-  margin-bottom: 15px;
-  text-align: left;
+  margin-bottom: 20px;
 }
 
-/* Blog Post Body */
 .post-body {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #333;
   line-height: 1.8;
-  text-align: justify;
 }
 
 /* Responsive Design */
@@ -263,7 +212,7 @@ button:hover {
   }
 
   main {
-    padding: 15px;
+    padding: 20px;
   }
 
   .image-container {
@@ -273,18 +222,18 @@ button:hover {
 
   .image-container img {
     max-width: 100%;
-    max-height: 300px; /* Adjusted for mobile devices */
+    max-height: 400px;
   }
 
   header h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .post-title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .post-body {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
