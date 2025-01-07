@@ -1,33 +1,30 @@
-/* Import Google Font Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* Global font styling with Montserrat */
 body {
-  font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat with fallback fonts */
-  line-height: 1.6; /* Improves readability */
+  font-family: 'Montserrat', Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #EDF4F2;
-  color: #333; /* Default text color */
-  box-sizing: border-box; /* Applies box-sizing globally */
-  font-size: 18px; /* Base font size */
+  color: #333; 
+  box-sizing: border-box; 
+  font-size: 18px; 
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures the body takes the full viewport height */
+  min-height: 100vh; 
 }
 
-/* Full-width navigation bar */
+
 nav {
-  background: #2d4d3c; /* Emerald dark green color for navbar */
-  color: #fff; /* Navigation text color */
+  background: #2d4d3c; 
+  color: #fff;
   width: 100%;
   padding: 12px 0;
-  position: sticky; /* Sticks to the top on scroll */
+  position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-/* Inner container to center navigation links */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -35,7 +32,6 @@ nav {
   padding: 0 20px;
 }
 
-/* Logo and name */
 .logo {
   display: flex;
   align-items: center;
@@ -54,7 +50,6 @@ nav {
   font-size: 1.8rem;
 }
 
-/* Navigation links styling */
 nav ul {
   list-style: none;
   margin: 0;
@@ -70,19 +65,18 @@ nav ul li a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-decoration: none;
-  color: #fff; /* Initial text color */
+  color: #fff; 
   padding: 12px 20px;
   font-size: 1.1rem;
-  transition: background 0.3s ease, color 0.3s ease; /* Add color transition */
-  border-radius: 5px; /* Rounded corners for navigation items */
+  transition: background 0.3s ease, color 0.3s ease; 
+  border-radius: 5px;
 }
 
 nav ul li a:hover {
-  background: #fff; /* Light background on hover */
-  color: #000; /* Darker text color on hover */
+  background: #fff;
+  color: #000;
 }
 
-/* Page title styling */
 header h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -92,17 +86,15 @@ header h1 {
   color: #333;
 }
 
-/* Main content styling */
 main {
-  max-width: 1200px; /* Sets a consistent container width */
+  max-width: 1200px;
   width: 100%;
-  margin: 0 auto; /* Centers the content horizontally */
-  padding: 20px; /* Standard padding for all pages */
-  box-sizing: border-box; /* Ensures padding does not affect width */
-  flex: 1; /* Fills the remaining space between header and footer */
+  margin: 0 auto;
+  padding: 20px; 
+  box-sizing: border-box;
+  flex: 1; 
 }
 
-/* Footer styling */
 footer {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -111,7 +103,6 @@ footer {
   color: #333;
 }
 
-/* Images */
 img {
   max-width: 100%;
   height: auto;
@@ -119,7 +110,6 @@ img {
   margin: 0 auto;
 }
 
-/* Buttons */
 button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -137,7 +127,6 @@ button:hover {
   background: #444;
 }
 
-/* Image container */
 .image-container {
   position: relative;
   display: inline-block;
@@ -151,7 +140,7 @@ button:hover {
 
 .image-container img {
   max-width: 500px;
-  max-height: 400px; /* Adjusted max height for images */
+  max-height: 400px;
   width: auto;
   height: auto;
   display: block;
@@ -163,7 +152,6 @@ button:hover {
   background: rgba(0, 0, 0, 1);
 }
 
-/* Image description (alt text) */
 .image-description {
   position: absolute;
   top: 50%;
@@ -181,7 +169,6 @@ button:hover {
   opacity: 1;
 }
 
-/* Modal for full-screen image */
 .modal {
   display: none;
   position: fixed;
@@ -214,18 +201,16 @@ button:hover {
   cursor: pointer;
 }
 
-/* Blog Post Container */
 .blog-post-container {
-  width: 95%; /* Increased width for better use of space */
-  max-width: 750px; /* Reduced maximum width for better visuals on larger screens */
-  margin: 15px auto; /* Tighter spacing between posts */
+  width: 95%; 
+  max-width: 750px;
+  margin: 15px auto;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Blog Post Title */
 .post-title {
   font-size: 1.8rem;
   font-weight: 700;
@@ -234,7 +219,6 @@ button:hover {
   text-align: left;
 }
 
-/* Blog Post Date */
 .post-date {
   font-size: 1rem;
   color: #777;
@@ -242,7 +226,6 @@ button:hover {
   text-align: left;
 }
 
-/* Blog Post Body */
 .post-body {
   font-size: 1rem;
   color: #333;
@@ -250,7 +233,6 @@ button:hover {
   text-align: justify;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -273,7 +255,7 @@ button:hover {
 
   .image-container img {
     max-width: 100%;
-    max-height: 300px; /* Adjusted for mobile devices */
+    max-height: 300px;
   }
 
   header h1 {
