@@ -21,7 +21,7 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/5.jpg" alt="American Robin" onclick="openModal(this)">
+  <img src="/assets/images/5-1.jpg" alt="American Robin" onclick="openModal(this)">
   <div class="image-description">American Robin</div>
 </div>
 
