@@ -21,8 +21,13 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
+  <img src="/assets/images/5.jpg" alt="American Robin" onclick="openModal(this)">
+  <div class="image-description">American Robin</div>
+</div>
+
+<div class="image-container">
   <img src="/assets/images/4-1.jpg" alt="Ocean Beach at Sunset" onclick="openModal(this)">
-  <div class="image-description">Ocean Beach at Sunset</div>
+  <div class="image-description">Ocean Beach at sunset</div>
 </div>
 
 <div class="image-container">
@@ -37,17 +42,17 @@ permalink: /portfolio/
 
 <div class="image-container">
   <img src="/assets/images/3.jpg" alt="Campanile at Sunset" onclick="openModal(this)">
-  <div class="image-description">Campanile at Sunset</div>
+  <div class="image-description">Campanile at sunset</div>
 </div>
 
 <div class="image-container">
   <img src="/assets/images/IMG_1120.jpg" alt="Mallard Duck on a Log" onclick="openModal(this)">
-  <div class="image-description">Mallard Duck on a Log</div>
+  <div class="image-description">Mallard duck on a log</div>
 </div>
 
 <div class="image-container">
   <img src="/assets/images/IMG_1060.jpg" alt="Mallard duck stretching" onclick="openModal(this)">
-  <div class="image-description">Mallard Duck Stretching</div>
+  <div class="image-description">Mallard duck Stretching</div>
 </div>
 
 <h2>Shot on Canon Powershot SX20 IS</h2>
@@ -63,13 +68,13 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/2-04.jpg" alt="Cafe" onclick="openModal(this)">
-  <div class="image-description">Café</div>
+  <img src="/assets/images/2-04.jpg" alt="Crepevine" onclick="openModal(this)">
+  <div class="image-description">Crepevine</div>
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/2-05.jpg" alt="Game Day" onclick="openModal(this)">
-  <div class="image-description">Game Day</div>
+  <img src="/assets/images/2-05.jpg" alt="Game Day 2024" onclick="openModal(this)">
+  <div class="image-description">Game Day 2024</div>
 </div>
 
 <div class="image-container">
@@ -78,8 +83,8 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/2-06.jpg" alt="Silhouette" onclick="openModal(this)">
-  <div class="image-description">Silhouette</div>
+  <img src="/assets/images/2-06.jpg" alt="Silhouette of a Bird" onclick="openModal(this)">
+  <div class="image-description">Silhouette of a Bird</div>
 </div>
 
 <div class="image-container">
@@ -93,18 +98,18 @@ permalink: /portfolio/
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/2-09.jpg" alt="450" onclick="openModal(this)">
-  <div class="image-description">450</div>
+  <img src="/assets/images/2-09.jpg" alt="RFS 450" onclick="openModal(this)">
+  <div class="image-description">RFS 450</div>
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/2-10.jpg" alt="Interior" onclick="openModal(this)">
-  <div class="image-description">Interior</div>
+  <img src="/assets/images/2-10.jpg" alt="Hillsdale" onclick="openModal(this)">
+  <div class="image-description">Hillsdale</div>
 </div>
 
 <div class="image-container">
-  <img src="/assets/images/2-11.jpg" alt="Bookworm" onclick="openModal(this)">
-  <div class="image-description">Bookworm</div>
+  <img src="/assets/images/2-11.jpg" alt="Moe's Books" onclick="openModal(this)">
+  <div class="image-description">Moe's Books</div>
 </div>
 
 <!-- Modal for full-screen image -->
