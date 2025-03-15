@@ -3,11 +3,11 @@ layout: wide
 title: Portfolio
 permalink: /portfolio/
 ---
-<h2>Shot on Canon T6, EF 75-300mm f/4-5.6 III</h2>
+<h2>Shot on Canon T6</h2>
 
 <div class="image-container">
   <img src="/assets/images/4-3.jpg" alt="Sutro Tower from Alamo Square" onclick="openModal(this)">
-  <div class="image-description">Sutro Tower from Alamo Square</div>
+  <div class="image-description">Sutro Tower from Alamo Square, </div>
 </div>
 
 <div class="image-container">
