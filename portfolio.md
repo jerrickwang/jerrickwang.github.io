@@ -7,7 +7,7 @@ permalink: /portfolio/
 
 <div class="image-container">
   <img src="/assets/images/6-5.jpg" alt="Campanile at Sunset" onclick="openModal(this)">
-  <div class="image-description">Campanile at Sunset</div>
+  <div class="image-description">Campanile at Sunset II</div>
 </div>
 
 <div class="image-container">
