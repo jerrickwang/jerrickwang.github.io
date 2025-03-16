@@ -6,6 +6,36 @@ permalink: /portfolio/
 <h2>Shot on Canon T6</h2>
 
 <div class="image-container">
+  <img src="/assets/images/6-5.jpg" alt="Campanile at Sunset" onclick="openModal(this)">
+  <div class="image-description">Campanile at Sunset</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/6-1.jpg" alt="Truck" onclick="openModal(this)">
+  <div class="image-description">Truck</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/6-4.jpg" alt="Dark-eyed Junco" onclick="openModal(this)">
+  <div class="image-description">Dark-eyed Junco</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/6-3.jpg" alt="Berkeley Rose Garden" onclick="openModal(this)">
+  <div class="image-description">Berkeley Rose Garden</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/6-6.jpg" alt="Fishing" onclick="openModal(this)">
+  <div class="image-description">Fishing</div>
+</div>
+
+<div class="image-container">
+  <img src="/assets/images/6-2.jpg" alt="Elmwood Patterns" onclick="openModal(this)">
+  <div class="image-description">Elmwood Patterns</div>
+</div>
+
+<div class="image-container">
   <img src="/assets/images/4-3.jpg" alt="Sutro Tower from Alamo Square" onclick="openModal(this)">
   <div class="image-description">Sutro Tower from Alamo Square</div>
 </div>
