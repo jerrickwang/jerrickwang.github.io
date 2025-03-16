@@ -9,7 +9,7 @@ permalink: /blog/
     <p class="post-title">New lens</p>
     <p class="post-date">March 15, 2025</p>
     <div class="post-body">
-      <p>I purchased a EF 50mm f/1.8 STM from B&H Photo recently and I took it out as soon as the weather allowed. With an older DSLR body, it helps a lot for IQ when there's a lot of light to keep the ISO low. On bright days, there's in fact too much light and my body can't go any faster than 1/4000, which is a great issue to have. It's a lot of fun and I think I'll try out some more street photography, as I never really took off the 75-300 before. The 50mm is staying on a for a while.</p>
+      <p>I purchased a EF 50mm f/1.8 STM from B&H Photo recently and I took it out as soon as the weather allowed. With an older DSLR body, it helps a lot for IQ when there's a lot of light to keep the ISO low. On bright days, there's in fact too much light and my body can't go any faster than 1/4000, which is a great issue to have. It's a lot of fun and I think I'll try out some more street photography, as I never really took off the 75-300 before. The 50mm is staying on my camera for a while.</p>
     </div>
   </article>
 </div>
