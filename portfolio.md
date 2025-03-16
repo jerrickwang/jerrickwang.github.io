@@ -7,7 +7,7 @@ permalink: /portfolio/
 
 <div class="image-container">
   <img src="/assets/images/4-3.jpg" alt="Sutro Tower from Alamo Square" onclick="openModal(this)">
-  <div class="image-description">Sutro Tower from Alamo Square, </div>
+  <div class="image-description">Sutro Tower from Alamo Square</div>
 </div>
 
 <div class="image-container">
