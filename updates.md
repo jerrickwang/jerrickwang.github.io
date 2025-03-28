@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Blog
-permalink: /blog/
+title: updates
+permalink: /updates/
 ---
 
 <div class="blog-post-container">
