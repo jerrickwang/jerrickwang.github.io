@@ -19,7 +19,7 @@ permalink: /updates/
     <p class="post-title">New site</p>
     <p class="post-date">January 3, 2025</p>
     <div class="post-body">
-      <p>Fully operational site. Will make small visual improvements over time. With inspiration from my friend at Berkeley, I have created an online portfolio and blog to write about my experiences as a photographer in San Francisco and Berkeley. I'd like to track my own development as a photographer and document it.</p>
+      <p>Fully operational site. Will make small visual improvements over time. With inspiration from my friend at Berkeley, I have created an online portfolio and write about my experiences as a photographer in San Francisco and Berkeley.</p>
     </div>
   </article>
 </div>
