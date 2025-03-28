@@ -1,6 +1,6 @@
 ---
 layout: wide
-title: Portfolio
+title: portfolio
 permalink: /portfolio/
 ---
 <h2>Shot on Canon T6</h2>
