@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: about
 permalink: /about/
 ---
 I use a Canon T6 body with the following:<br>
