@@ -7,6 +7,7 @@ permalink: /portfolio/
 <div class="image-container">
   <img src="/assets/images/6-5.jpg" alt="Campanile at Sunset II" onclick="openModal(this)">
   <div class="image-description">Campanile at Sunset II</div>
+</div>
 <div class="image-container">
   <img src="/assets/images/416-2.jpg" alt="Golden Gate from Baker Beach" onclick="openModal(this)">
   <div class="image-description">Golden Gate from Baker Beach</div>
@@ -26,6 +27,7 @@ permalink: /portfolio/
 <div class="image-container">
   <img src="/assets/images/416-1.jpg" alt="Wilhelmina" onclick="openModal(this)">
   <div class="image-description">Wilhelmina</div>
+</div>
 <div class="image-container">
   <img src="/assets/images/6-4.jpg" alt="Dark-eyed Junco" onclick="openModal(this)">
   <div class="image-description">Dark-eyed Junco</div>
