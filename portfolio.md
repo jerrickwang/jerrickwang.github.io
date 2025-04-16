@@ -4,10 +4,12 @@ title: portfolio
 permalink: /portfolio/
 ---
 <h2>Shot on Canon T6</h2>
-
 <div class="image-container">
   <img src="/assets/images/6-5.jpg" alt="Campanile at Sunset II" onclick="openModal(this)">
   <div class="image-description">Campanile at Sunset II</div>
+<div class="image-container">
+  <img src="/assets/images/416-2.jpg" alt="Golden Gate from Baker Beach" onclick="openModal(this)">
+  <div class="image-description">Golden Gate from Baker Beach</div>
 </div>
 <div class="image-container">
   <img src="/assets/images/7-2.jpg" alt="Martinez Waterfront" onclick="openModal(this)">
@@ -21,6 +23,9 @@ permalink: /portfolio/
   <img src="/assets/images/7-3.jpg" alt="Muir's Poppies" onclick="openModal(this)">
   <div class="image-description">Muir's Poppies</div>
 </div>
+<div class="image-container">
+  <img src="/assets/images/416-1.jpg" alt="Wilhelmina" onclick="openModal(this)">
+  <div class="image-description">Wilhelmina</div>
 <div class="image-container">
   <img src="/assets/images/6-4.jpg" alt="Dark-eyed Junco" onclick="openModal(this)">
   <div class="image-description">Dark-eyed Junco</div>
