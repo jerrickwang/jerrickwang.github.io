@@ -232,17 +232,6 @@ button:hover {
   line-height: 1.8;
   text-align: justify;
 }
-/* centers every image inside .center-images */
-.center-images img {
-  display: block;
-  margin: 0 auto;
-}
-
-/* if you have captions as <p> tags right after images */
-.center-images p {
-  text-align: center;
-}
-
 
 @media (max-width: 768px) {
   nav ul {
