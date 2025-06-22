@@ -135,8 +135,3 @@ permalink: /portfolio/
   <div class="image-description">Moe's Books</div>
 </div>
 
-<!-- Modal for full-screen image -->
-<div id="imageModal" class="modal" onclick="closeModal()">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="modalImage">
-</div>
