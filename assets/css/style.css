@@ -31,6 +31,7 @@ nav:hover {
   transform: scale(1.05);
 }
 
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -74,11 +75,13 @@ nav ul li a {
   color: #fff; 
   padding: 12px 20px;
   font-size: 1.1rem;
-  transition: background 0.3s ease, color 0.3s ease; 
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transform-origin: top; 
   border-radius: 5px;
 }
 
 nav ul li a:hover {
+  transform: scale(1.05);
   background: #fff;
   color: #000;
 }
