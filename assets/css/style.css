@@ -16,19 +16,13 @@ body {
 
 
 nav {
-  background: #2d4d3c;
+  background: #2d4d3c; 
   color: #fff;
   width: 100%;
   padding: 12px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  transition: transform 0.3s ease;
-  transform-origin: top;
-}
-
-nav:hover {
-  transform: scale(1.05);
 }
 
 
