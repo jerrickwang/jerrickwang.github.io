@@ -15,12 +15,12 @@ permalink: /portfolio/
   <div class="image-date">March 2025</div>
 </div>
 <div class="image-container">
-  <img src="/assets/images/618-1.jpg" alt="Ina Coolbrith Parrots" onclick="openModal(this)">
+  <img src="/assets/images/628-1.jpg" alt="Ina Coolbrith Parrots" onclick="openModal(this)">
   <div class="image-description">Ina Coolbrith Parrots</div>
   <div class="image-date">June 2025</div>
 </div>
 <div class="image-container">
-  <img src="/assets/images/618-2.jpg" alt="Dude's Drive-In" onclick="openModal(this)">
+  <img src="/assets/images/628-2.jpg" alt="Dude's Drive-In" onclick="openModal(this)">
   <div class="image-description">Dude's Drive-In</div>
   <div class="image-date">June 2025</div>
 </div>
