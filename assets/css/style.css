@@ -39,7 +39,7 @@ nav {
 }
 
 .logo img {
-  height: 50px;
+  height: 250px;
   width: auto;
   margin-right: 10px;
 }
@@ -112,7 +112,7 @@ footer {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 250px;
   display: block;
   margin: 0 auto;
 }
@@ -147,9 +147,8 @@ button:hover {
 
 .image-container img {
   max-width: 500px;
-  max-height: 400px;
   width: auto;
-  height: auto;
+  height: 250px;
   display: block;
   margin: 0 auto;
   cursor: pointer;
@@ -283,7 +282,7 @@ button:hover {
 
   .image-container img {
     max-width: 100%;
-    max-height: 300px;
+    height: 250px;
   }
 
   header h1 {
