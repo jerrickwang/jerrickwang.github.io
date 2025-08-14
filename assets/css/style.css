@@ -146,10 +146,8 @@ button:hover {
 }
 
 .image-container img {
-  max-width: 500px;
-  max-height: 400px;
+  height: 400px;
   width: auto;
-  height: auto;
   display: block;
   margin: 0 auto;
   cursor: pointer;
@@ -283,7 +281,7 @@ button:hover {
 
   .image-container img {
     max-width: 100%;
-    max-height: 300px;
+    height: 300px;
   }
 
   header h1 {
