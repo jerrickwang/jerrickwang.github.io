@@ -177,8 +177,3 @@ permalink: /portfolio/
   <div class="image-date">April 2024</div>
 </div>
 
-<!-- Modal for full-screen image -->
-<div id="imageModal" class="modal" onclick="closeModal()">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="modalImage">
-</div>
