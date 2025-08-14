@@ -217,6 +217,23 @@ button:hover {
   box-sizing: border-box;
 }
 
+.nav-zone {
+  position: absolute;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.left-zone {
+  left: 0;
+}
+
+.right-zone {
+  right: 0;
+}
+
 .close {
   position: absolute;
   top: 15px;
