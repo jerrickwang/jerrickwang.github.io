@@ -68,6 +68,23 @@ function handleModalClick(event) {
 var modal = document.getElementById("imageModal");
 if (modal) {
   modal.addEventListener("click", handleModalClick);
+
+  var prevArrow = document.getElementById("prevArrow");
+  if (prevArrow) {
+    prevArrow.addEventListener("click", function(event) {
+      event.stopPropagation();
+      showPrev();
+    });
+  }
+
+  var nextArrow = document.getElementById("nextArrow");
+  if (nextArrow) {
+    nextArrow.addEventListener("click", function(event) {
+      event.stopPropagation();
+      showNext();
+    });
+  }
+
   document.addEventListener("keydown", function(event) {
     if (modal.style.display === "block") {
       if (event.key === "ArrowRight") {
