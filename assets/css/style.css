@@ -246,6 +246,16 @@ button:hover {
   right: 20px;
 }
 
+@keyframes arrow-flash {
+  0% { color: #fff; }
+  50% { color: #000; }
+  100% { color: #fff; }
+}
+
+.arrow.flash {
+  animation: arrow-flash 0.1s ease;
+}
+
 .blog-post-container {
   width: 95%; 
   max-width: 750px;
