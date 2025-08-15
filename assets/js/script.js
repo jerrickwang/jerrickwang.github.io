@@ -68,6 +68,15 @@ function handleModalClick(event) {
 var modal = document.getElementById("imageModal");
 if (modal) {
   modal.addEventListener("click", handleModalClick);
+  document.addEventListener("keydown", function(event) {
+    if (modal.style.display === "block") {
+      if (event.key === "ArrowRight") {
+        showNext();
+      } else if (event.key === "ArrowLeft") {
+        showPrev();
+      }
+    }
+  });
 } else {
   console.error('Modal element not found!');
 }
