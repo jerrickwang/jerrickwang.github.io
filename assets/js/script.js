@@ -35,6 +35,8 @@ function showImage(index) {
 function flashArrow(id) {
   var arrow = document.getElementById(id);
   if (arrow) {
+    arrow.classList.remove("flash");
+    void arrow.offsetWidth;
     arrow.classList.add("flash");
     setTimeout(function() {
       arrow.classList.remove("flash");
