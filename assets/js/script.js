@@ -32,12 +32,24 @@ function showImage(index) {
   }
 }
 
+function flashArrow(id) {
+  var arrow = document.getElementById(id);
+  if (arrow) {
+    arrow.classList.add("flash");
+    setTimeout(function() {
+      arrow.classList.remove("flash");
+    }, 100);
+  }
+}
+
 function showNext() {
   showImage(currentIndex + 1);
+  flashArrow("nextArrow");
 }
 
 function showPrev() {
   showImage(currentIndex - 1);
+  flashArrow("prevArrow");
 }
 
 function closeModal() {
