@@ -38,9 +38,13 @@ function flashArrow(id) {
     arrow.classList.remove("flash");
     void arrow.offsetWidth;
     arrow.classList.add("flash");
-    setTimeout(function() {
+
+    function handleAnimationEnd() {
       arrow.classList.remove("flash");
-    }, 100);
+      arrow.removeEventListener("animationend", handleAnimationEnd);
+    }
+
+    arrow.addEventListener("animationend", handleAnimationEnd);
   }
 }
 
