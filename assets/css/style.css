@@ -227,6 +227,41 @@ button:hover {
   cursor: pointer;
 }
 
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
+.arrow.flash {
+  animation: arrow-flash 0.1s ease;
+}
+
+@keyframes arrow-flash {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #000;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
 .blog-post-container {
   width: 95%; 
   max-width: 750px;
