@@ -227,6 +227,25 @@ button:hover {
   cursor: pointer;
 }
 
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
 .blog-post-container {
   width: 95%; 
   max-width: 750px;
