@@ -3,6 +3,16 @@ layout: default
 title: updates
 permalink: /updates/
 ---
+<div class="blog-post-container">
+  <article class="blog-post">
+    <p class="post-title">site update II</p>
+    <p class="post-date">August 15, 2025</p>
+    <div class="post-body">
+      <p>Added a carousel mode to scroll through pictures in fullscreen mode, with dates.</p>
+    </div>
+  </article>
+</div>
+
 
 <div class="blog-post-container">
   <article class="blog-post">
