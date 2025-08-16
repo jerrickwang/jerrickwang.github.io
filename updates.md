@@ -8,7 +8,7 @@ permalink: /updates/
     <p class="post-title">site update II</p>
     <p class="post-date">August 15, 2025</p>
     <div class="post-body">
-      <p>Added a carousel mode to scroll through pictures in fullscreen mode, with dates.</p>
+      <p>Added a carousel mode to scroll through pictures in fullscreen mode, with an info box in the corner.</p>
     </div>
   </article>
 </div>
