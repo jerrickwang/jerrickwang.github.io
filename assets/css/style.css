@@ -258,7 +258,7 @@ button:hover {
 }
 
 .arrow.flash {
-  animation: arrow-flash 1s ease;
+  animation: arrow-flash 0.3s ease;
 }
 
 .blog-post-container {
