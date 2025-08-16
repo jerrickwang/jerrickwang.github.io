@@ -117,8 +117,8 @@ Use the arrows on the sides of the screen or your arrow keys to navigate through
   <div class="image-date">December 2024</div>
 </div>
 <div class="image-container">
-  <img src="/assets/images/IMG_1060.jpg" alt="Mallard duck stretching" onclick="openModal(this)">
-  <div class="image-description">Mallard duck Stretching</div>
+  <img src="/assets/images/IMG_1060.jpg" alt="Mallard Duck stretching" onclick="openModal(this)">
+  <div class="image-description">Mallard Duck Stretching</div>
   <div class="image-date">December 2024</div>
 </div>
 
