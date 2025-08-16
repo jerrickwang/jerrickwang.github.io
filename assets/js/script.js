@@ -63,6 +63,10 @@ function closeModal() {
   if (modal) {
     modal.style.display = "none";
   }
+  var prevArrow = document.getElementById("prevArrow");
+  var nextArrow = document.getElementById("nextArrow");
+  if (prevArrow) prevArrow.classList.remove("scaled");
+  if (nextArrow) nextArrow.classList.remove("scaled");
 }
 
 function handleModalClick(event) {
@@ -83,9 +87,28 @@ function handleModalClick(event) {
   }
 }
 
+function handleMouseMove(event) {
+  var width = window.innerWidth;
+  var x = event.clientX;
+  var prevArrow = document.getElementById("prevArrow");
+  var nextArrow = document.getElementById("nextArrow");
+
+  if (x < width * 0.1) {
+    if (prevArrow) prevArrow.classList.add("scaled");
+    if (nextArrow) nextArrow.classList.remove("scaled");
+  } else if (x > width * 0.9) {
+    if (nextArrow) nextArrow.classList.add("scaled");
+    if (prevArrow) prevArrow.classList.remove("scaled");
+  } else {
+    if (prevArrow) prevArrow.classList.remove("scaled");
+    if (nextArrow) nextArrow.classList.remove("scaled");
+  }
+}
+
 var modal = document.getElementById("imageModal");
 if (modal) {
   modal.addEventListener("click", handleModalClick);
+  modal.addEventListener("mousemove", handleMouseMove);
 
   var prevArrow = document.getElementById("prevArrow");
   if (prevArrow) {

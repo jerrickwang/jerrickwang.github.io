@@ -236,6 +236,7 @@ button:hover {
   font-weight: bold;
   user-select: none;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .arrow.left {
@@ -244,6 +245,10 @@ button:hover {
 
 .arrow.right {
   right: 20px;
+}
+
+.arrow.scaled {
+  transform: translateY(-50%) scale(1.25);
 }
 
 @keyframes arrow-flash {
