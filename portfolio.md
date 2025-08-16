@@ -3,6 +3,7 @@ layout: wide
 title: portfolio
 permalink: /portfolio/
 ---
+Click on an image to enter carousel mode. Use the arrows on the sides of the screen or your arrow keys to navigate through.<br>
 <h2>Shot on Canon T6</h2>
 <div class="image-container">
   <img src="/assets/images/6-5.jpg" alt="Campanile at Sunset II" onclick="openModal(this)">
