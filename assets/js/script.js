@@ -26,7 +26,17 @@ function showImage(index) {
 
   var modalImage = document.getElementById("modalImage");
   if (modalImage) {
-    modalImage.src = images[currentIndex].src;
+    var img = images[currentIndex];
+    modalImage.src = img.src;
+
+    var container = img.closest('.image-container');
+    var descEl = container ? container.querySelector('.image-description') : null;
+    var dateEl = container ? container.querySelector('.image-date') : null;
+    var captionText = '';
+    if (descEl) captionText += descEl.textContent;
+    if (dateEl) captionText += (captionText ? ', ' : '') + dateEl.textContent;
+    var modalCaption = document.getElementById('modalCaption');
+    if (modalCaption) modalCaption.textContent = captionText;
   } else {
     console.error('Modal Image element not found!');
   }
@@ -67,6 +77,8 @@ function closeModal() {
   var nextArrow = document.getElementById("nextArrow");
   if (prevArrow) prevArrow.classList.remove("scaled");
   if (nextArrow) nextArrow.classList.remove("scaled");
+  var modalCaption = document.getElementById("modalCaption");
+  if (modalCaption) modalCaption.textContent = "";
 }
 
 function handleModalClick(event) {
