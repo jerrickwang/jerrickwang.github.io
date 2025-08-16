@@ -32,11 +32,11 @@ function showImage(index) {
     var container = img.closest('.image-container');
     var descEl = container ? container.querySelector('.image-description') : null;
     var dateEl = container ? container.querySelector('.image-date') : null;
-    var captionText = '';
-    if (descEl) captionText += descEl.textContent;
-    if (dateEl) captionText += (captionText ? ', ' : '') + dateEl.textContent;
+    var captionHTML = '';
+    if (descEl) captionHTML += '<em>' + descEl.textContent + '</em>';
+    if (dateEl) captionHTML += (captionHTML ? '<br>' : '') + dateEl.textContent;
     var modalCaption = document.getElementById('modalCaption');
-    if (modalCaption) modalCaption.textContent = captionText;
+    if (modalCaption) modalCaption.innerHTML = captionHTML;
   } else {
     console.error('Modal Image element not found!');
   }
@@ -78,7 +78,7 @@ function closeModal() {
   if (prevArrow) prevArrow.classList.remove("scaled");
   if (nextArrow) nextArrow.classList.remove("scaled");
   var modalCaption = document.getElementById("modalCaption");
-  if (modalCaption) modalCaption.textContent = "";
+  if (modalCaption) modalCaption.innerHTML = "";
 }
 
 function handleModalClick(event) {
