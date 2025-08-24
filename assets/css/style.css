@@ -31,7 +31,7 @@ body::before {
     radial-gradient(circle at 0% 100%, rgba(152, 251, 152, 0.5), transparent 70%),  /* pastel green */
     radial-gradient(circle at 50% 100%, rgba(255, 228, 181, 0.5), transparent 70%), /* pastel peach */
     radial-gradient(circle at 50% 50%, rgba(176, 224, 230, 0.5), transparent 70%);  /* pastel teal */
-  filter: blur(90px);
+  filter: blur(1px);
   z-index: -1;
   animation: ambient-move 25s ease-in-out infinite alternate;
 }
