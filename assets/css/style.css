@@ -25,8 +25,8 @@ body::before {
   height: 300%;
   background:
     radial-gradient(circle at 100% 0%, rgba(100, 255, 100, 1) 40%, transparent 70%),
-    radial-gradient(circle at 100% 0%, rgba(100, 100, 100, 1) 40%, transparent 70%),
-    radial-gradient(circle at 100% 0%, rgba(100, 255, 100, 1) 40%, transparent 70%),
+    radial-gradient(circle at 50% 50%, rgba(100, 100, 100, 1) 40%, transparent 70%),
+    radial-gradient(circle at 0% 100%, rgba(100, 255, 100, 1) 40%, transparent 70%),
   filter: none;
   z-index: -1;
   animation: ambient-move 10s ease-in-out infinite alternate;
