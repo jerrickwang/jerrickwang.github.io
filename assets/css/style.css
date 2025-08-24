@@ -6,12 +6,39 @@ body {
   margin: 0;
   padding: 0;
   background-color: #EDF4F2;
-  color: #333; 
-  box-sizing: border-box; 
-  font-size: 18px; 
+  color: #333;
+  box-sizing: border-box;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: -20%;
+  right: -20%;
+  width: 140%;
+  height: 140%;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(150, 214, 176, 0.3), transparent 60%),
+    radial-gradient(circle at 20% 80%, rgba(150, 214, 176, 0.25), transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(150, 214, 176, 0.2), transparent 60%);
+  filter: blur(80px);
+  z-index: -1;
+  animation: ambient-move 60s linear infinite;
+}
+
+@keyframes ambient-move {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-25%, 25%);
+  }
 }
 
 
