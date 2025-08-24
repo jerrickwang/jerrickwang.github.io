@@ -24,13 +24,13 @@ body::before {
   width: 300%;
   height: 300%;
   background:
-    radial-gradient(circle at 100% 0%, rgba(255, 182, 193, 0.28), transparent 70%),   /* pastel pink */
-    radial-gradient(circle at 75% 25%, rgba(173, 216, 230, 0.24), transparent 70%),  /* pastel blue */
-    radial-gradient(circle at 50% 0%, rgba(255, 239, 186, 0.28), transparent 70%),   /* pastel yellow */
-    radial-gradient(circle at 25% 75%, rgba(221, 160, 221, 0.24), transparent 70%),  /* pastel purple */
-    radial-gradient(circle at 0% 100%, rgba(152, 251, 152, 0.26), transparent 70%),  /* pastel green */
-    radial-gradient(circle at 50% 100%, rgba(255, 228, 181, 0.24), transparent 70%), /* pastel peach */
-    radial-gradient(circle at 50% 50%, rgba(176, 224, 230, 0.24), transparent 70%);  /* pastel teal */
+    radial-gradient(circle at 100% 0%, rgba(255, 182, 193, 0.5), transparent 70%),   /* pastel pink */
+    radial-gradient(circle at 75% 25%, rgba(173, 216, 230, 0.5), transparent 70%),  /* pastel blue */
+    radial-gradient(circle at 50% 0%, rgba(255, 239, 186, 0.5), transparent 70%),   /* pastel yellow */
+    radial-gradient(circle at 25% 75%, rgba(221, 160, 221, 0.5), transparent 70%),  /* pastel purple */
+    radial-gradient(circle at 0% 100%, rgba(152, 251, 152, 0.5), transparent 70%),  /* pastel green */
+    radial-gradient(circle at 50% 100%, rgba(255, 228, 181, 0.5), transparent 70%), /* pastel peach */
+    radial-gradient(circle at 50% 50%, rgba(176, 224, 230, 0.5), transparent 70%);  /* pastel teal */
   filter: blur(90px);
   z-index: -1;
   animation: ambient-move 25s ease-in-out infinite alternate;
@@ -38,8 +38,9 @@ body::before {
 
 @keyframes ambient-move {
   0%   { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(-6%, -4%) scale(1.1); }
+  100% { transform: translate(-6%, -4%) scale(1.5); }
 }
+
 
 
 
