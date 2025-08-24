@@ -16,36 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: -100%;
-  left: -100%;
-  width: 300%;
-  height: 300%;
-  background:
-    radial-gradient(circle at 100% 0%, rgba(255, 0, 150, 0.1), transparent 70%),
-    radial-gradient(circle at 75% 25%, rgba(0, 255, 200, 0.1), transparent 70%),
-    radial-gradient(circle at 50% 0%, rgba(255, 200, 0, 0.1), transparent 70%),
-    radial-gradient(circle at 25% 75%, rgba(0, 150, 255, 0.1), transparent 70%),
-    radial-gradient(circle at 0% 100%, rgba(200, 0, 255, 0.1), transparent 70%),
-    radial-gradient(circle at 50% 100%, rgba(255, 100, 0, 0.1), transparent 70%),
-    radial-gradient(circle at 50% 50%, rgba(0, 255, 100, 0.1), transparent 70%);
-  filter: blur(100px);
-  z-index: -1;
-  animation: ambient-move 15s ease-in-out infinite alternate;
-}
-
-@keyframes ambient-move {
-  from {
-    transform: translate(25%, -25%);
-  }
-  to {
-    transform: translate(-25%, 25%);
-  }
-}
-
-
 nav {
   background: #2d4d3c; 
   color: #fff;
