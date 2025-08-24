@@ -27,7 +27,7 @@ body::before {
     radial-gradient(circle at 80% 20%, rgba(150, 214, 176, 0.3), transparent 60%),
     radial-gradient(circle at 20% 80%, rgba(150, 214, 176, 0.25), transparent 60%),
     radial-gradient(circle at 50% 50%, rgba(150, 214, 176, 0.2), transparent 60%);
-  filter: blur(80px);
+  /*filter: blur(80px);*/
   z-index: -1;
   animation: ambient-move 60s linear infinite;
 }
