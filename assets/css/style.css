@@ -21,7 +21,7 @@ body::before {
   position: fixed;
   top: -100%;
   left: -100%;
-  width: 600%;
+  width: 400%;
   height: 300%;
   background:
     radial-gradient(circle at 100% 0%, rgba(255, 0, 150, 0.2), transparent 70%),
