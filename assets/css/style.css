@@ -37,8 +37,12 @@ body::before {
 }
 
 @keyframes ambient-move {
-  0%   { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(-5%, -5%) scale(1.1); }
+  from {
+    transform: translate(25%, -25%);
+  }
+  to {
+    transform: translate(-25%, 25%);
+  }
 }
 
 nav {
