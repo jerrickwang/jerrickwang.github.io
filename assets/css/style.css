@@ -29,7 +29,7 @@ body::before {
     radial-gradient(circle at 50% 50%, rgba(255, 255, 0, 0.6), transparent 60%);
   filter: none;
   z-index: -1;
-  animation: ambient-move 1s linear infinite;
+  animation: ambient-move 10s ease-in-out infinite alternate;
 }
 
 @keyframes ambient-move {
