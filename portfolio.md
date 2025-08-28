@@ -22,6 +22,11 @@ Use the arrows on the sides of the screen or your arrow keys to navigate through
   <div class="image-date">June 2025</div>
 </div>
 <div class="image-container">
+  <img src="/assets/images/8-1.jpg" alt="Half Moon Bay Sunset" onclick="openModal(this)">
+  <div class="image-description">Half Moon Bay Sunset</div>
+  <div class="image-date">August 2025</div>
+</div>
+<div class="image-container">
   <img src="/assets/images/628-2.jpg" alt="Dude's Drive-In" onclick="openModal(this)">
   <div class="image-description">Dude's Drive-In</div>
   <div class="image-date">June 2025</div>
